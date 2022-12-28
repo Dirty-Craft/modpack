@@ -3,14 +3,19 @@ import sys
 import json
 
 
+VERSION = 'dev'
+if len(sys.argv) > 1:
+    VERSION = sys.argv[1]
+
+
 def download_once(mod):
     file_id = str(mod['fileID'])
     id_1 = str(int(file_id[:4]))
     id_2 = str(int(file_id[4:]))
 
-    url = 'https://mediafilez.forgecdn.net/files/'+id_1+'/'+id_2+'/' + mod['filename']
+    url = 'https://mediafilez.forgecdn.net/files/' + id_1 + '/' + id_2 + '/' + mod['filename']
 
-    command = 'wget --header "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0" "'+url+'"'
+    command = 'wget -c --header "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0" "' + url + '"'
 
     os.system(command)
 
@@ -24,12 +29,13 @@ content = json.load(manifest_file)
 manifest_file.close()
 
 
+downloaded_jars = []
 real_cwd = os.getcwd()
-os.chdir('output/downloads')
+os.chdir('output/mods/jar')
 for f in content['files']:
     download_once(f)
+    downloaded_jars.append('"' + f['filename'] + '"')
 
-os.system('zip Dirty-Craft-1.19.2_0.0.1-mods.zip -r *.jar')
-os.system('rm *.jar')
+os.system('zip ../zip/Dirty-Craft-' + VERSION + '-mods.zip -r ' + ' '.join(downloaded_jars))
 
 os.chdir(real_cwd)

@@ -1,5 +1,7 @@
-modpack:
-	zip output/dirty-craft.zip -r overrides pack.png manifest.json
+VERSION = $(shell cat version.txt)
 
-download:
-	python3 scripts/download_mods.py
+pack:
+	zip output/modpack/Dirty-Craft-$(VERSION).zip -r overrides pack.png manifest.json
+
+mods:
+	python3 scripts/download_mods.py $(VERSION)
