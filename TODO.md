@@ -2,7 +2,6 @@
 
 ## 1st phase: Getting this ready to be published
 
-- Add server side pack generating
 - Update all mod versions
 - Fix TODO.md links
 - Write a proper README

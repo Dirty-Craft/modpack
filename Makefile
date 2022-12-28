@@ -1,14 +1,18 @@
 SHELL = bash
-.PHONY := pack clean-packs mods clean-mod-jars clean-mod-zips clean-mods clean-all listmods genhelp genall clean
+.PHONY := pack clean-packs mods clean-mod-jars clean-mod-zips clean-mods clean-all listmods genhelp genall clean clean-server server
 
 PY = $(shell which python3)
 SCRIPT_SHOW_VERSION = $(PY) scripts/show_version.py
 SCRIPT_DOWNLOAD_MODS = $(PY) scripts/download_mods.py
 SCRIPT_GENERATE_MODS_LIST = $(PY) scripts/generate_mods_list.py
 SCRIPT_SHOW_BUILD_DIR = $(PY) scripts/show_build_dir.py
+SCRIPT_SHOW_GAME_VERSION = $(PY) scripts/show_game_version.py
+SCRIPT_SHOW_FABRIC_VERSION = $(PY) scripts/show_fabric_version.py
 
 VERSION = $(shell $(SCRIPT_SHOW_VERSION))
 BUILD_DIR = $(shell $(SCRIPT_SHOW_BUILD_DIR))
+GAME_VERSION = $(shell $(SCRIPT_SHOW_GAME_VERSION))
+FABRIC_VERSION = $(shell $(SCRIPT_SHOW_FABRIC_VERSION))
 HOW_TO_USE_MAKEFILE_MD = HOW-TO-USE-MAKEFILE.md
 
 ### pack:                Generates the modpack zip for client which includes "overrides" and manifest.json
@@ -19,6 +23,29 @@ pack:
 ### mods:                Downloads all of the mods defined in manifest.json from the curseforge and compresses them into a zip file
 mods:
 	@$(SCRIPT_DOWNLOAD_MODS) $(VERSION)
+
+server:
+	@echo "Preparing..."
+	-@rm -rf $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server
+	-@rm -rf $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server.zip
+	@mkdir $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server
+	@echo "Copying overrides files..."
+	-@cp overrides/* $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server -ar
+	@echo "Done"
+	@echo "Copying mods..."
+	@mkdir $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server/mods
+	@unzip $(BUILD_DIR)/mods/zip/Dirty-Craft-$(VERSION)-mods.zip -d $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server/mods
+	@echo "Done"
+	@echo "Downloading fabric..."
+	@wget -c https://meta.fabricmc.net/v2/versions/loader/$(GAME_VERSION)/$(FABRIC_VERSION)/0.11.1/server/jar -O $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server/fabric.jar
+	@echo "Done"
+	@echo "Making the zip file..."
+	@mv $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server .
+	@zip $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server.zip -r Dirty-Craft-$(VERSION)-server
+	@echo "Done"
+	@echo "Cleaning up..."
+	-@rm -rf Dirty-Craft-$(VERSION)-server
+	@echo "The server pack generated successfully in $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server.zip"
 
 ### listmods:            Generates list of the installed mods in the modpack in MODS.md file
 listmods:
@@ -49,8 +76,12 @@ clean-mod-zips:
 ### clean-mods:          Deletes both downloaded jars and created mods zip files
 clean-mods: clean-mod-jars clean-mod-zips
 
+### clean-server:        Cleans server pack generated zip files
+clean-server:
+	-rm $(BUILD_DIR)/server/*.zip
+
 ### clean:               Cleans all of the generated files but not downloaded mod files
-clean: clean-packs clean-mod-zips
+clean: clean-packs clean-mod-zips clean-server
 
 ### clean-all:           Cleans everything and deletes all of the downloaded and generated files
-clean-all: clean-packs clean-mods
+clean-all: clean-packs clean-mods clean-server
