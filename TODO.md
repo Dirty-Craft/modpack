@@ -2,7 +2,6 @@
 
 ## 1st phase: Getting this ready to be published
 
-- Write a proper README
 - Update all versions
 - Add automatic publish GitHub workflows
 
