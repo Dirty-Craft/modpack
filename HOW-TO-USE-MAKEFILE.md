@@ -9,4 +9,5 @@
 ### clean-mod-jars:      Deletes the downloaded mod jar files
 ### clean-mod-zips:      Deletes the compressed mods zip files
 ### clean-mods:          Deletes both downloaded jars and created mods zip files
+### clean:               Cleans all of the generated files but not downloaded mod files
 ### clean-all:           Cleans everything and deletes all of the downloaded and generated files

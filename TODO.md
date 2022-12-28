@@ -1,6 +1,5 @@
 # TODO
 
-- Write a proper README
-- Cleanup the Makefile
 - Add server side pack generating
+- Write a proper README
 - Add automation GitHub workflows

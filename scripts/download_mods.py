@@ -14,7 +14,7 @@ content = tools.load_manifest()
 downloaded_jars = []
 real_cwd = tools.os.getcwd()
 version = tools.get_version()
-tools.os.chdir('output/mods/jar')
+tools.os.chdir(tools.BUILD_DIR + '/mods/jar')
 
 for f in content['files'][::-1]:
     download_once(f)
@@ -22,3 +22,5 @@ for f in content['files'][::-1]:
 
 tools.os.system('zip ../zip/Dirty-Craft-' + version + '-mods.zip -r ' + ' '.join(downloaded_jars))
 tools.os.chdir(real_cwd)
+
+print('All of the mods downloaded successfully and compressed in ' + tools.BUILD_DIR + '/mods/zip/Dirty-Craft-' + version + '-mods.zip')
