@@ -1,31 +1,33 @@
 # Mods list
 
-- [x] Croptopia-1.19.2-FABRIC-2.1.2.jar
-- [x] TerraBlender-fabric-1.19.2-2.0.1.130.jar
-- [x] The_Graveyard_2.3_(FABRIC)_for_1.19.2.jar
-- [x] The_Graveyard_Biomes_1.6_(FABRIC)_for_1.19.2.jar
-- [x] YungsApi-1.19.2-Fabric-3.8.2.jar
-- [x] YungsBetterMineshafts-1.19.2-Fabric-3.2.0.jar
-- [x] adventurez-1.4.17.jar
-- [x] bclib-2.1.4.jar
-- [x] better-end-2.1.2.jar
-- [x] better-nether-7.1.2.jar
-- [x] bettervillage-fabric-1.19.2-2.0.0.jar
-- [x] fabric-api-0.67.1+1.19.2.jar
-- [x] diamondNuggets-fabric-1.3-1.19.x.jar
-- [x] cloth-config-8.2.88-fabric.jar
-- [x] enderitemc-enderitemod-1.4.1-1.19.jar
-- [x] extraalchemy-fabric-1.19.2-1.9.0.jar
-- [x] fabric-seasons-1.4-BETA-1.19.jar
-- [x] farmers-delight-fabric-1.19.X-1.3.9.jar
-- [x] geckolib-fabric-1.19-3.1.37.jar
-- [x] incapacitated-1.3-1.19.2.jar
-- [x] libraryferret-fabric-1.19.2-3.0.0.jar
-- [x] morevillagers-fabric-1.19-4.0.2.jar
-- [x] naturalist-fabric-2.1.1-1.19.2.jar
-- [x] probablychests-0.5.5-1.19.2.jar
-- [x] queen-cats-1.0.2-1.19.2-Fabric.jar
-- [x] repurposed_structures_fabric-6.1.2+1.19.jar
-- [x] the_bumblezone_fabric-6.4.6+1.19.2.jar
-- [x] travelers-backpack-1.19.2-8.2.7.jar
-- [x] voicechat-fabric-1.19.2-2.3.2.jar
+These are the mods installed in Dirty Craft modpack:
+
+- [diamondNuggets-fabric-1.3-1.19.x.jar](https://www.curseforge.com/minecraft/mc-mods/454034)
+- [fabric-api-0.67.1+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/306612)
+- [Croptopia-1.19.2-FABRIC-2.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/415438)
+- [TerraBlender-fabric-1.19.2-2.0.1.130.jar](https://www.curseforge.com/minecraft/mc-mods/565956)
+- [The_Graveyard_2.3_(FABRIC)_for_1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/514468)
+- [The_Graveyard_Biomes_1.6_(FABRIC)_for_1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/584511)
+- [YungsApi-1.19.2-Fabric-3.8.2.jar](https://www.curseforge.com/minecraft/mc-mods/421649)
+- [YungsBetterMineshafts-1.19.2-Fabric-3.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/373591)
+- [adventurez-1.4.17.jar](https://www.curseforge.com/minecraft/mc-mods/390991)
+- [bclib-2.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/495191)
+- [better-end-2.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/413596)
+- [better-nether-7.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/311377)
+- [bettervillage-fabric-1.19.2-2.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/615351)
+- [cloth-config-8.2.88-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/348521)
+- [enderitemc-enderitemod-1.4.1-1.19.jar](https://www.curseforge.com/minecraft/mc-mods/399221)
+- [extraalchemy-fabric-1.19.2-1.9.0.jar](https://www.curseforge.com/minecraft/mc-mods/247357)
+- [fabric-seasons-1.4-BETA+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/413523)
+- [farmers-delight-fabric-1.19.X-1.3.9.jar](https://www.curseforge.com/minecraft/mc-mods/482834)
+- [geckolib-fabric-1.19-3.1.37.jar](https://www.curseforge.com/minecraft/mc-mods/388172)
+- [incapacitated-1.3-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/528135)
+- [libraryferret-fabric-1.19.2-3.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/532730)
+- [morevillagers-fabric-1.19-4.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/486080)
+- [naturalist-fabric-2.1.1-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/627986)
+- [probablychests-0.5.5-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/601735)
+- [queen-cats-1.0.2-1.19.2-Fabric.jar](https://www.curseforge.com/minecraft/mc-mods/684706)
+- [repurposed_structures_fabric-6.1.2+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/391366)
+- [the_bumblezone_fabric-6.4.6+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/363949)
+- [travelers-backpack-1.19.2-8.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/541171)
+- [voicechat-fabric-1.19.2-2.3.26.jar](https://www.curseforge.com/minecraft/mc-mods/416089)

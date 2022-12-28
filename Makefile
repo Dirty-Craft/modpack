@@ -1,4 +1,5 @@
 VERSION = $(shell cat version.txt)
+PY = $(shell which python3)
 
 pack:
 	zip output/modpack/Dirty-Craft-$(VERSION).zip -r overrides pack.png manifest.json
@@ -7,7 +8,7 @@ clean-packs:
 	-rm output/modpack/*.zip
 
 mods:
-	python3 scripts/download_mods.py $(VERSION)
+	$(PY) scripts/download_mods.py $(VERSION)
 
 clean-mod-jars:
 	-rm output/mods/jar/*.jar
@@ -18,3 +19,6 @@ clean-mod-zips:
 clean-mods: clean-mod-jars clean-mod-zips
 
 clean: clean-packs clean-mods
+
+listmods:
+	$(PY) scripts/generate_mods_list.py
