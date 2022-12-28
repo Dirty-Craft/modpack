@@ -6,7 +6,7 @@ Check this out on [Curseforge](https://www.curseforge.com/minecraft/modpacks/dir
 Dirty craft is a modpack which inclues different mods to make MineCraft more realistic in overworld.
 It adds more crops, fruits, animals, etc.
 
-In addition to more nature and realistic, it also adds more monsters, boss fights, and mysterious structures.
+In addition to more nature and realisticness, it also adds more monsters, boss fights, and mysterious structures.
 
 Also if you are bored from the current look of End and Nether dimentions, it adds better nether & end.
 
@@ -14,7 +14,7 @@ And the Blumbzone dimention is added too.
 
 Totally, if you want to experience a MineCraft with **More content**, this will be the best thing to try!
 
-Also we have lots of plans in future for this modpack!
+Also we have lots of plans in the future for this modpack!
 
 ## Mods
 To see list of the available mods in this modpack, see [mods list](MODS.md).
@@ -64,6 +64,9 @@ $ make server
 ```
 
 It will be generated as a zip file in `_build/server` as a zip file.
+
+#### What to do by the way?
+We write out TODOs & plans in [TODO.md](TODO.md). Check it out.
 
 ## License
 This project is created by [parsampsh](https://github.com/parsampsh) and other contributors.
