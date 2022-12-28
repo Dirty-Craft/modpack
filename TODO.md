@@ -4,6 +4,7 @@
 
 - Add server side pack generating
 - Write a proper README
+- Fix TODO.md links
 - Add automatic publish GitHub workflows
 
 ## 2nd phase: Find some alternative mods
