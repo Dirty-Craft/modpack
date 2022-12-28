@@ -24,6 +24,7 @@ pack:
 mods:
 	@$(SCRIPT_DOWNLOAD_MODS) $(VERSION)
 
+### server:              Generates the modpack for server
 server: mods
 	@echo "Preparing..."
 	-@rm -rf $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server

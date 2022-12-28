@@ -2,6 +2,7 @@
 
 ### pack:                Generates the modpack zip for client which includes "overrides" and manifest.json
 ### mods:                Downloads all of the mods defined in manifest.json from the curseforge and compresses them into a zip file
+### server:              Generates the modpack for server
 ### listmods:            Generates list of the installed mods in the modpack in MODS.md file
 ### genhelp:             Generates this makefile help in HOW_TO_USE_MAKEFILE_MD
 ### genall:              Generates all of the generatable source code files (like mods list, helps, etc.)
