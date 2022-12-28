@@ -24,7 +24,7 @@ pack:
 mods:
 	@$(SCRIPT_DOWNLOAD_MODS) $(VERSION)
 
-server:
+server: mods
 	@echo "Preparing..."
 	-@rm -rf $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server
 	-@rm -rf $(BUILD_DIR)/server/Dirty-Craft-$(VERSION)-server.zip
