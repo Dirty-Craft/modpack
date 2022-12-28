@@ -90,6 +90,102 @@
             "projectID": 615351,
             "fileID": 3959346,
             "required": true
+        },
+        {
+            "filename": "cloth-config-8.2.88-fabric.jar",
+            "projectID": 348521,
+            "fileID": 3972420,
+            "required": true
+        },
+        {
+            "filename": "enderitemc-enderitemod-1.4.1-1.19.jar",
+            "projectID": 399221,
+            "fileID": 3826746,
+            "required": true
+        },
+        {
+            "filename": "extraalchemy-fabric-1.19.2-1.9.0.jar",
+            "projectID": 247357,
+            "fileID": 4046633,
+            "required": true
+        },
+        {
+            "filename": "fabric-seasons-1.4-BETA+1.19.jar",
+            "projectID": 413523,
+            "fileID": 3841956,
+            "required": true
+        },
+        {
+            "filename": "farmers-delight-fabric-1.19.X-1.3.9.jar",
+            "projectID": 482834,
+            "fileID": 4111426,
+            "required": true
+        },
+        {
+            "filename": "geckolib-fabric-1.19-3.1.37.jar",
+            "projectID": 388172,
+            "fileID": 4096665,
+            "required": true
+        },
+        {
+            "filename": "incapacitated-1.3-1.19.2.jar",
+            "projectID": 528135,
+            "fileID": 3981417,
+            "required": true
+        },
+        {
+            "filename": "libraryferret-fabric-1.19.2-3.0.0.jar",
+            "projectID": 532730,
+            "fileID": 3959274,
+            "required": true
+        },
+        {
+            "filename": "morevillagers-fabric-1.19-4.0.2.jar",
+            "projectID": 486080,
+            "fileID": 3843501,
+            "required": true
+        },
+        {
+            "filename": "naturalist-fabric-2.1.1-1.19.2.jar",
+            "projectID": 627986,
+            "fileID": 3930808,
+            "required": true
+        },
+        {
+            "filename": "probablychests-0.5.5-1.19.2.jar",
+            "projectID": 601735,
+            "fileID": 4020528,
+            "required": true
+        },
+        {
+            "filename": "queen-cats-1.0.2-1.19.2-Fabric.jar",
+            "projectID": 684706,
+            "fileID": 4074869,
+            "required": true
+        },
+        {
+            "filename": "repurposed_structures_fabric-6.1.2+1.19.jar",
+            "projectID": 391366,
+            "fileID": 4044086,
+            "required": true
+        },
+        {
+            "filename": "the_bumblezone_fabric-6.4.6+1.19.2.jar",
+            "projectID": 363949,
+            "fileID": 4132293,
+            "required": true
+        },
+        {
+            "filename": "travelers-backpack-1.19.2-8.2.7.jar",
+            "projectID": 541171,
+            "fileID": 4081454,
+            "required": true
+        },
+        {
+            "filename": "voicechat-fabric-1.19.2-2.3.26.jar",
+            "projectID": 416089,
+            "fileID": 4271665,
+            "required": true
         }
     ],
     "overrides": "overrides"

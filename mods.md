@@ -13,19 +13,19 @@
 - [x] bettervillage-fabric-1.19.2-2.0.0.jar
 - [x] fabric-api-0.67.1+1.19.2.jar
 - [x] diamondNuggets-fabric-1.3-1.19.x.jar
-- [ ] cloth-config-8.2.88-fabric.jar
-- [ ] enderitemc-enderitemod-1.4.1-1.19.jar
-- [ ] extraalchemy-fabric-1.19.2-1.9.0.jar
-- [ ] fabric-seasons-1.4-BETA-1.19.jar
-- [ ] farmers-delight-fabric-1.19.X-1.3.9.jar
-- [ ] geckolib-fabric-1.19-3.1.37.jar
-- [ ] incapacitated-1.3-1.19.2.jar
-- [ ] libraryferret-fabric-1.19.2-3.0.0.jar
-- [ ] morevillagers-fabric-1.19-4.0.2.jar
-- [ ] naturalist-fabric-2.1.1-1.19.2.jar
-- [ ] probablychests-0.5.5-1.19.2.jar
-- [ ] queen-cats-1.0.2-1.19.2-Fabric.jar
-- [ ] repurposed_structures_fabric-6.1.2+1.19.jar
-- [ ] the_bumblezone_fabric-6.4.6+1.19.2.jar
-- [ ] travelers-backpack-1.19.2-8.2.7.jar
-- [ ] voicechat-fabric-1.19.2-2.3.2.jar
+- [x] cloth-config-8.2.88-fabric.jar
+- [x] enderitemc-enderitemod-1.4.1-1.19.jar
+- [x] extraalchemy-fabric-1.19.2-1.9.0.jar
+- [x] fabric-seasons-1.4-BETA-1.19.jar
+- [x] farmers-delight-fabric-1.19.X-1.3.9.jar
+- [x] geckolib-fabric-1.19-3.1.37.jar
+- [x] incapacitated-1.3-1.19.2.jar
+- [x] libraryferret-fabric-1.19.2-3.0.0.jar
+- [x] morevillagers-fabric-1.19-4.0.2.jar
+- [x] naturalist-fabric-2.1.1-1.19.2.jar
+- [x] probablychests-0.5.5-1.19.2.jar
+- [x] queen-cats-1.0.2-1.19.2-Fabric.jar
+- [x] repurposed_structures_fabric-6.1.2+1.19.jar
+- [x] the_bumblezone_fabric-6.4.6+1.19.2.jar
+- [x] travelers-backpack-1.19.2-8.2.7.jar
+- [x] voicechat-fabric-1.19.2-2.3.2.jar
