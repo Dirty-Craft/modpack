@@ -68,6 +68,10 @@ It will be generated as a zip file in `_build/server` as a zip file.
 #### What to do by the way?
 We write out TODOs & plans in [TODO.md](TODO.md). Check it out.
 
+#### How to publish this to Curseforge?
+The project will be automatically published to the Curseforge when you add a **tag**.
+See [Publish workflow](.github/workflows/publish.yml) if you are interested.
+
 ## License
 This project is created by [parsampsh](https://github.com/parsampsh) and other contributors.
 And it's licensed under [MIT License](LICENSE).

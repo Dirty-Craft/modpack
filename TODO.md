@@ -1,11 +1,6 @@
 # TODO
 
-## 1st phase: Getting this ready to be published
-
-- Add automatic publish GitHub workflows
-
-## 2nd phase: Find some alternative mods
-
+## 1st phase: Find some alternative mods
 There are some mods that are not available for Fabric and are Forge mods or have been for old versions of MineCraft and are not available for the newer versions. We need to find some alternatives for them to add to the modpack:
 
 - **MrCrayfish's Furniture Mod**: Adding new decoration stuff
@@ -13,12 +8,10 @@ There are some mods that are not available for Fabric and are Forge mods or have
 - **Dehydration**: This currently exists, but it's too complicated. We need to add a simpler mod for dehydration
 - **Additional Mobs**: Adds lots of new cool mobs but is not available for 1.19.2
 
-## 3rd phase: Create logo and symbol
-
+## 2nd phase: Create logo and symbol
 We need to create a logo and also organize some documentation for our modpack.
 
-## 4th phase: Create some mods
-
+## 3rd phase: Create some mods
 There are some mods that we need to create to make our modpack more interesting.
 
 1. A mod to add Paper and Quill to the game.
