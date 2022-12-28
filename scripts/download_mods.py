@@ -32,7 +32,7 @@ manifest_file.close()
 downloaded_jars = []
 real_cwd = os.getcwd()
 os.chdir('output/mods/jar')
-for f in content['files']:
+for f in content['files'][::-1]:
     download_once(f)
     downloaded_jars.append('"' + f['filename'] + '"')
 

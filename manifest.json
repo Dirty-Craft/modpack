@@ -1,30 +1,96 @@
 {
     "minecraft": {
-      "version": "1.19.2",
-      "modLoaders": [
-        {
-          "id": "fabric-0.14.11",
-          "primary": true
-        }
-      ]
+        "version": "1.19.2",
+        "modLoaders": [
+            {
+                "id": "fabric-0.14.11",
+                "primary": true
+            }
+        ]
     },
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "Dirty Craft",
     "author": "parsampsh",
     "files": [
-      {
-        "filename": "diamondNuggets-fabric-1.3-1.19.x.jar",
-        "projectID": 454034,
-        "fileID": 3827937,
-        "required": true
-      },
-      {
-        "filename": "fabric-api-0.67.1+1.19.2.jar",
-        "projectID": 306612,
-        "fileID": 4104564,
-        "required": true
-      }
+        {
+            "filename": "diamondNuggets-fabric-1.3-1.19.x.jar",
+            "projectID": 454034,
+            "fileID": 3827937,
+            "required": true
+        },
+        {
+            "filename": "fabric-api-0.67.1+1.19.2.jar",
+            "projectID": 306612,
+            "fileID": 4104564,
+            "required": true
+        },
+        {
+            "filename": "Croptopia-1.19.2-FABRIC-2.1.2.jar",
+            "projectID": 415438,
+            "fileID": 4046720,
+            "required": true
+        },
+        {
+            "filename": "TerraBlender-fabric-1.19.2-2.0.1.130.jar",
+            "projectID": 565956,
+            "fileID": 4095396,
+            "required": true
+        },
+        {
+            "filename": "The_Graveyard_2.3_(FABRIC)_for_1.19.2.jar",
+            "projectID": 514468,
+            "fileID": 4100322,
+            "required": true
+        },
+        {
+            "filename": "The_Graveyard_Biomes_1.6_(FABRIC)_for_1.19.2.jar",
+            "projectID": 584511,
+            "fileID": 4090409,
+            "required": true
+        },
+        {
+            "filename": "YungsApi-1.19.2-Fabric-3.8.2.jar",
+            "projectID": 421649,
+            "fileID": 4035003,
+            "required": true
+        },
+        {
+            "filename": "YungsBetterMineshafts-1.19.2-Fabric-3.2.0.jar",
+            "projectID": 373591,
+            "fileID": 4031205,
+            "required": true
+        },
+        {
+            "filename": "adventurez-1.4.17.jar",
+            "projectID": 390991,
+            "fileID": 4061649,
+            "required": true
+        },
+        {
+            "filename": "bclib-2.1.4.jar",
+            "projectID": 495191,
+            "fileID": 4111371,
+            "required": true
+        },
+        {
+            "filename": "better-end-2.1.2.jar",
+            "projectID": 413596,
+            "fileID": 4111393,
+            "required": true
+        },
+        {
+            "filename": "better-nether-7.1.2.jar",
+            "projectID": 311377,
+            "fileID": 4090927,
+            "required": true
+        },
+        {
+            "filename": "bettervillage-fabric-1.19.2-2.0.0.jar",
+            "projectID": 615351,
+            "fileID": 3959346,
+            "required": true
+        }
     ],
     "overrides": "overrides"
-  }
+}

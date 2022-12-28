@@ -1,20 +1,21 @@
 # Mods list
 
-- [ ] Croptopia-1.19.2-FABRIC-2.1.2.jar
-- [ ] TerraBlender-fabric-1.19.2-2.0.1.130.jar
-- [ ] The_Graveyard_2.3_FABRIC_for_1.19.2.jar
-- [ ] The_Graveyard_Biomes_1.6_FABRIC_for_1.19.2.jar
-- [ ] YungsApi-1.19.2-Fabric-3.8.2.jar
-- [ ] YungsBetterMineshafts-1.19.2-Fabric-3.2.0.jar
-- [ ] adventurez-1.4.17.jar
-- [ ] bclib-2.1.4.jar
-- [ ] better-end-2.1.2.jar
-- [ ] better-nether-7.1.2.jar
-- [ ] bettervillage-fabric-1.19.2-2.0.0.jar
+- [x] Croptopia-1.19.2-FABRIC-2.1.2.jar
+- [x] TerraBlender-fabric-1.19.2-2.0.1.130.jar
+- [x] The_Graveyard_2.3_(FABRIC)_for_1.19.2.jar
+- [x] The_Graveyard_Biomes_1.6_(FABRIC)_for_1.19.2.jar
+- [x] YungsApi-1.19.2-Fabric-3.8.2.jar
+- [x] YungsBetterMineshafts-1.19.2-Fabric-3.2.0.jar
+- [x] adventurez-1.4.17.jar
+- [x] bclib-2.1.4.jar
+- [x] better-end-2.1.2.jar
+- [x] better-nether-7.1.2.jar
+- [x] bettervillage-fabric-1.19.2-2.0.0.jar
+- [x] fabric-api-0.67.1+1.19.2.jar
+- [x] diamondNuggets-fabric-1.3-1.19.x.jar
 - [ ] cloth-config-8.2.88-fabric.jar
 - [ ] enderitemc-enderitemod-1.4.1-1.19.jar
 - [ ] extraalchemy-fabric-1.19.2-1.9.0.jar
-- [x] fabric-api-0.67.1+1.19.2.jar
 - [ ] fabric-seasons-1.4-BETA-1.19.jar
 - [ ] farmers-delight-fabric-1.19.X-1.3.9.jar
 - [ ] geckolib-fabric-1.19-3.1.37.jar
@@ -28,4 +29,3 @@
 - [ ] the_bumblezone_fabric-6.4.6+1.19.2.jar
 - [ ] travelers-backpack-1.19.2-8.2.7.jar
 - [ ] voicechat-fabric-1.19.2-2.3.2.jar
-- [x] diamondNuggets-fabric-1.3-1.19.x.jar
