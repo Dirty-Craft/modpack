@@ -1,0 +1,30 @@
+{
+    "minecraft": {
+      "version": "1.19.2",
+      "modLoaders": [
+        {
+          "id": "fabric-0.14.11",
+          "primary": true
+        }
+      ]
+    },
+    "manifestType": "minecraftModpack",
+    "manifestVersion": 1,
+    "name": "Dirty Craft",
+    "author": "parsampsh",
+    "files": [
+      {
+        "_comment": "Diamond nuggets mod",
+        "projectID": 454034,
+        "fileID": 3827937,
+        "required": true
+      },
+      {
+        "_comment": "Fabric API",
+        "projectID": 306612,
+        "fileID": 4256084,
+        "required": true
+      }
+    ],
+    "overrides": "overrides"
+  }
