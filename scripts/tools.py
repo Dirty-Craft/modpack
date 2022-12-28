@@ -5,7 +5,7 @@ import json
 
 _VERSION_CACHE = None
 
-BUILD_DIR = 'output'
+BUILD_DIR = '_build'
 
 def get_version():
     """ Loads the version name from version.txt """
