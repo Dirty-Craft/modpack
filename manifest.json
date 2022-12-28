@@ -15,174 +15,203 @@
     "files": [
         {
             "filename": "diamondNuggets-fabric-1.3-1.19.x.jar",
+            "link_slug": "diamond-nuggets",
             "projectID": 454034,
             "fileID": 3827937,
             "required": true
         },
         {
             "filename": "fabric-api-0.67.1+1.19.2.jar",
+            "link_slug": "fabric-api",
             "projectID": 306612,
             "fileID": 4104564,
             "required": true
         },
         {
             "filename": "Croptopia-1.19.2-FABRIC-2.1.2.jar",
+            "link_slug": "croptopia",
             "projectID": 415438,
             "fileID": 4046720,
             "required": true
         },
         {
             "filename": "TerraBlender-fabric-1.19.2-2.0.1.130.jar",
+            "link_slug": "terrablender-fabric",
             "projectID": 565956,
             "fileID": 4095396,
             "required": true
         },
         {
             "filename": "The_Graveyard_2.3_(FABRIC)_for_1.19.2.jar",
+            "link_slug": "the-graveyard-fabric",
             "projectID": 514468,
             "fileID": 4100322,
             "required": true
         },
         {
             "filename": "The_Graveyard_Biomes_1.6_(FABRIC)_for_1.19.2.jar",
+            "link_slug": "the-graveyard-biomes-fabric",
             "projectID": 584511,
             "fileID": 4090409,
             "required": true
         },
         {
             "filename": "YungsApi-1.19.2-Fabric-3.8.2.jar",
+            "link_slug": "yungs-api-fabric",
             "projectID": 421649,
             "fileID": 4035003,
             "required": true
         },
         {
             "filename": "YungsBetterMineshafts-1.19.2-Fabric-3.2.0.jar",
+            "link_slug": "yungs-better-mineshafts-fabric",
             "projectID": 373591,
             "fileID": 4031205,
             "required": true
         },
         {
             "filename": "adventurez-1.4.17.jar",
+            "link_slug": "adventurez",
             "projectID": 390991,
             "fileID": 4061649,
             "required": true
         },
         {
             "filename": "bclib-2.1.4.jar",
+            "link_slug": "bclib",
             "projectID": 495191,
             "fileID": 4111371,
             "required": true
         },
         {
             "filename": "better-end-2.1.2.jar",
+            "link_slug": "betterend",
             "projectID": 413596,
             "fileID": 4111393,
             "required": true
         },
         {
             "filename": "better-nether-7.1.2.jar",
+            "link_slug": "betternether",
             "projectID": 311377,
             "fileID": 4090927,
             "required": true
         },
         {
             "filename": "bettervillage-fabric-1.19.2-2.0.0.jar",
+            "link_slug": "better-village-fabric",
             "projectID": 615351,
             "fileID": 3959346,
             "required": true
         },
         {
             "filename": "cloth-config-8.2.88-fabric.jar",
+            "link_slug": "cloth-config",
             "projectID": 348521,
             "fileID": 3972420,
             "required": true
         },
         {
             "filename": "enderitemc-enderitemod-1.4.1-1.19.jar",
+            "link_slug": "enderite-mod-for-fabric",
             "projectID": 399221,
             "fileID": 3826746,
             "required": true
         },
         {
             "filename": "extraalchemy-fabric-1.19.2-1.9.0.jar",
+            "link_slug": "extra-alchemy",
             "projectID": 247357,
             "fileID": 4046633,
             "required": true
         },
         {
             "filename": "fabric-seasons-1.4-BETA+1.19.jar",
+            "link_slug": "fabric-seasons",
             "projectID": 413523,
             "fileID": 3841956,
             "required": true
         },
         {
             "filename": "farmers-delight-fabric-1.19.X-1.3.9.jar",
+            "link_slug": "farmers-delight-fabric",
             "projectID": 482834,
             "fileID": 4111426,
             "required": true
         },
         {
             "filename": "geckolib-fabric-1.19-3.1.37.jar",
+            "link_slug": "geckolib",
             "projectID": 388172,
             "fileID": 4096665,
             "required": true
         },
         {
             "filename": "incapacitated-1.3-1.19.2.jar",
+            "link_slug": "incapacitated",
             "projectID": 528135,
             "fileID": 3981417,
             "required": true
         },
         {
             "filename": "libraryferret-fabric-1.19.2-3.0.0.jar",
+            "link_slug": "library-ferret-fabric",
             "projectID": 532730,
             "fileID": 3959274,
             "required": true
         },
         {
             "filename": "morevillagers-fabric-1.19-4.0.2.jar",
+            "link_slug": "more-villagers-fabric",
             "projectID": 486080,
             "fileID": 3843501,
             "required": true
         },
         {
             "filename": "naturalist-fabric-2.1.1-1.19.2.jar",
+            "link_slug": "naturalist",
             "projectID": 627986,
             "fileID": 3930808,
             "required": true
         },
         {
             "filename": "probablychests-0.5.5-1.19.2.jar",
+            "link_slug": "probably-chests",
             "projectID": 601735,
             "fileID": 4020528,
             "required": true
         },
         {
             "filename": "queen-cats-1.0.2-1.19.2-Fabric.jar",
+            "link_slug": "queen-cats-dogs",
             "projectID": 684706,
             "fileID": 4074869,
             "required": true
         },
         {
             "filename": "repurposed_structures_fabric-6.1.2+1.19.jar",
+            "link_slug": "repurposed-structures-fabric",
             "projectID": 391366,
             "fileID": 4044086,
             "required": true
         },
         {
             "filename": "the_bumblezone_fabric-6.4.6+1.19.2.jar",
+            "link_slug": "the-bumblezone-fabric",
             "projectID": 363949,
             "fileID": 4132293,
             "required": true
         },
         {
             "filename": "travelers-backpack-1.19.2-8.2.7.jar",
+            "link_slug": "travelers-backpack-fabric",
             "projectID": 541171,
             "fileID": 4081454,
             "required": true
         },
         {
             "filename": "voicechat-fabric-1.19.2-2.3.26.jar",
+            "link_slug": "simple-voice-chat",
             "projectID": 416089,
             "fileID": 4271665,
             "required": true

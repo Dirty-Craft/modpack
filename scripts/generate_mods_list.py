@@ -4,7 +4,7 @@ content = '# Mods list\n\n'
 content += 'These are the mods installed in Dirty Craft (' + tools.get_version() + ') modpack:\n\n'
 
 for mod in tools.load_manifest()['files']:
-    link = 'https://www.curseforge.com/minecraft/mc-mods/' + str(mod['projectID'])
+    link = 'https://www.curseforge.com/minecraft/mc-mods/' + str(mod['link_slug'])
     content += '- [' + mod['filename'] + '](' + link + ')\n'
 
 mods_list_file = open('MODS.md', 'w')
