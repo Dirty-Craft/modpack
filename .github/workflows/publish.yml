@@ -14,9 +14,10 @@ jobs:
           python-version: 3.9
       - name: Build the modpack
         run: |
+          make clean-all
           make server pack
           echo "modpackfile=$(ls _build/modpack/*.zip)" >> $GITHUB_ENV
-          echo "serverfile=$(ls _build/modpack/*.zip)" >> $GITHUB_ENV
+          echo "serverfile=$(ls _build/server/*.zip)" >> $GITHUB_ENV
       - name: "Upload modpack to CurseForge"
         uses: itsmeow/curseforge-upload@v3
         with:
