@@ -1,0 +1,33 @@
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  publish-to-curseforge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Build the modpack
+        run: |
+          make server modpack
+      - name: "Upload modpack to CurseForge"
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          file_path: "_build/modpack/*.zip"
+          game_endpoint: "minecraft"
+          game_versions: "Minecraft 1.19.2"
+          project_id: "${{ secrets.CF_PROJECT_ID }}"
+          token: "${{ secrets.CF_API_TOKEN }}"
+      - name: "Upload server pack to CurseForge"
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          file_path: "_build/server/*.zip"
+          game_endpoint: "minecraft"
+          game_versions: "Minecraft 1.19.2"
+          project_id: "${{ secrets.CF_PROJECT_ID }}"
+          token: "${{ secrets.CF_API_TOKEN }}"
