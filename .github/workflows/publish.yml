@@ -15,10 +15,12 @@ jobs:
       - name: Build the modpack
         run: |
           make server pack
+          echo "modpackfile=$(ls _build/modpack/*.zip)" >> $GITHUB_ENV
+          echo "serverfile=$(ls _build/modpack/*.zip)" >> $GITHUB_ENV
       - name: "Upload modpack to CurseForge"
         uses: itsmeow/curseforge-upload@v3
         with:
-          file_path: "_build/modpack/*.zip"
+          file_path: "${{ env.modpackfile }}"
           game_endpoint: "minecraft"
           game_versions: "Minecraft 1.19.2"
           project_id: "${{ secrets.CF_PROJECT_ID }}"
@@ -26,7 +28,7 @@ jobs:
       - name: "Upload server pack to CurseForge"
         uses: itsmeow/curseforge-upload@v3
         with:
-          file_path: "_build/server/*.zip"
+          file_path: "${{ env.serverfile }}"
           game_endpoint: "minecraft"
           game_versions: "Minecraft 1.19.2"
           project_id: "${{ secrets.CF_PROJECT_ID }}"
