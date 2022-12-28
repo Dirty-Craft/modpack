@@ -14,7 +14,7 @@
 - [ ] cloth-config-8.2.88-fabric.jar
 - [ ] enderitemc-enderitemod-1.4.1-1.19.jar
 - [ ] extraalchemy-fabric-1.19.2-1.9.0.jar
-- [ ] fabric-api-0.67.1+1.19.2.jar
+- [x] fabric-api-0.67.1+1.19.2.jar
 - [ ] fabric-seasons-1.4-BETA-1.19.jar
 - [ ] farmers-delight-fabric-1.19.X-1.3.9.jar
 - [ ] geckolib-fabric-1.19-3.1.37.jar
@@ -28,4 +28,4 @@
 - [ ] the_bumblezone_fabric-6.4.6+1.19.2.jar
 - [ ] travelers-backpack-1.19.2-8.2.7.jar
 - [ ] voicechat-fabric-1.19.2-2.3.2.jar
-- [ ] diamondNuggets-fabric-1.3-1.19.x.jar
+- [x] diamondNuggets-fabric-1.3-1.19.x.jar
