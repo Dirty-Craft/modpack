@@ -2,9 +2,9 @@
 
 ## 1st phase: Getting this ready to be published
 
-- Update all mod versions
 - Fix TODO.md links
 - Write a proper README
+- Update all mod versions
 - Add automatic publish GitHub workflows
 
 ## 2nd phase: Find some alternative mods
