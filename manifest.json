@@ -14,13 +14,13 @@
     "author": "parsampsh",
     "files": [
       {
-        "_comment": "Diamond nuggets mod",
+        "filename": "diamondNuggets-fabric-1.3-1.19.x.jar",
         "projectID": 454034,
         "fileID": 3827937,
         "required": true
       },
       {
-        "_comment": "Fabric API",
+        "filename": "fabric-api-0.70.0%2B1.19.2.jar",
         "projectID": 306612,
         "fileID": 4256084,
         "required": true
