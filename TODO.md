@@ -2,7 +2,6 @@
 
 ## 1st phase: Getting this ready to be published
 
-- Update all versions
 - Add automatic publish GitHub workflows
 
 ## 2nd phase: Find some alternative mods
