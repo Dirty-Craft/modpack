@@ -3,8 +3,9 @@
 ## 1st phase: Getting this ready to be published
 
 - Add server side pack generating
-- Write a proper README
+- Update all mod versions
 - Fix TODO.md links
+- Write a proper README
 - Add automatic publish GitHub workflows
 
 ## 2nd phase: Find some alternative mods
