@@ -1,6 +1,6 @@
 # Mods list
 
-These are the mods installed in Dirty Craft modpack:
+These are the mods installed in Dirty Craft (1.19.2_0.0.1) modpack:
 
 - [diamondNuggets-fabric-1.3-1.19.x.jar](https://www.curseforge.com/minecraft/mc-mods/454034)
 - [fabric-api-0.67.1+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/306612)
