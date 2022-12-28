@@ -23,7 +23,7 @@ jobs:
         with:
           file_path: "${{ env.modpackfile }}"
           game_endpoint: "minecraft"
-          game_versions: "Minecraft 1.19.2"
+          game_versions: "Minecraft 1.19.2,Java 17,Fabric"
           project_id: "${{ secrets.CF_PROJECT_ID }}"
           token: "${{ secrets.CF_API_TOKEN }}"
       - name: "Upload server pack to CurseForge"
@@ -31,6 +31,6 @@ jobs:
         with:
           file_path: "${{ env.serverfile }}"
           game_endpoint: "minecraft"
-          game_versions: "Minecraft 1.19.2"
+          game_versions: "Minecraft 1.19.2,Java 17,Fabric"
           project_id: "${{ secrets.CF_PROJECT_ID }}"
           token: "${{ secrets.CF_API_TOKEN }}"
