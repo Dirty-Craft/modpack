@@ -215,6 +215,13 @@
             "projectID": 416089,
             "fileID": 4271665,
             "required": true
+        },
+        {
+            "filename": "Oh_The_Biomes_You'll_Go-fabric-1.19.2-2.0.0.13.jar",
+            "link_slug": "oh-the-biomes-youll-go-fabric",
+            "projectID": 391378,
+            "fileID": 4027262,
+            "required": true
         }
     ],
     "overrides": "overrides"

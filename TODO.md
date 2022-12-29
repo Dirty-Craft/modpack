@@ -4,7 +4,6 @@
 There are some mods that are not available for Fabric and are Forge mods or have been for old versions of MineCraft and are not available for the newer versions. We need to find some alternatives for them to add to the modpack:
 
 - **MrCrayfish's Furniture Mod**: Adding new decoration stuff
-- **Biomes O' Plenty**: Changing the overworld generation
 - **Dehydration**: This currently exists, but it's too complicated. We need to add a simpler mod for dehydration
 - **Additional Mobs**: Adds lots of new cool mobs but is not available for 1.19.2
 
