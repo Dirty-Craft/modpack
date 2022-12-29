@@ -236,6 +236,20 @@
             "projectID": 624673,
             "fileID": 4062609,
             "required": true
+        },
+        {
+            "filename": "AdditionalStructures-1.19.x-(v.4.1.0).jar",
+            "link_slug": "additional-structures-fabric",
+            "projectID": 585782,
+            "fileID": 3941056,
+            "required": true
+        },
+        {
+            "filename": "castle_dungeons-3.3-1.19-fabric.jar",
+            "link_slug": "castle-dungeons",
+            "projectID": 399213,
+            "fileID": 3852630,
+            "required": true
         }
     ],
     "overrides": "overrides"

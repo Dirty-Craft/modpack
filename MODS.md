@@ -34,3 +34,5 @@ These are the mods installed in Dirty Craft (1.19.2_dev) modpack:
 - [Oh_The_Biomes_You'll_Go-fabric-1.19.2-2.0.0.13.jar](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-fabric)
 - [exlinefurniture-fabric-1.19.2-v2.3.2.jar](https://www.curseforge.com/minecraft/mc-mods/exlines-furniture)
 - [exlinedoors-fabric-1.19.2-v2.3.6.jar](https://www.curseforge.com/minecraft/mc-mods/exlines-doors)
+- [AdditionalStructures-1.19.x-(v.4.1.0).jar](https://www.curseforge.com/minecraft/mc-mods/additional-structures-fabric)
+- [castle_dungeons-3.3-1.19-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/castle-dungeons)
