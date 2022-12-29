@@ -32,3 +32,5 @@ These are the mods installed in Dirty Craft (1.19.2_dev) modpack:
 - [travelers-backpack-1.19.2-8.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/travelers-backpack-fabric)
 - [voicechat-fabric-1.19.2-2.3.26.jar](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat)
 - [Oh_The_Biomes_You'll_Go-fabric-1.19.2-2.0.0.13.jar](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-fabric)
+- [exlinefurniture-fabric-1.19.2-v2.3.2.jar](https://www.curseforge.com/minecraft/mc-mods/exlines-furniture)
+- [exlinedoors-fabric-1.19.2-v2.3.6.jar](https://www.curseforge.com/minecraft/mc-mods/exlines-doors)

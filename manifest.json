@@ -222,6 +222,20 @@
             "projectID": 391378,
             "fileID": 4027262,
             "required": true
+        },
+        {
+            "filename": "exlinefurniture-fabric-1.19.2-v2.3.2.jar",
+            "link_slug": "exlines-furniture",
+            "projectID": 504919,
+            "fileID": 4062618,
+            "required": true
+        },
+        {
+            "filename": "exlinedoors-fabric-1.19.2-v2.3.6.jar",
+            "link_slug": "exlines-doors",
+            "projectID": 624673,
+            "fileID": 4062609,
+            "required": true
         }
     ],
     "overrides": "overrides"

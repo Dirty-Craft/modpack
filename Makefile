@@ -1,5 +1,5 @@
 SHELL = bash
-.PHONY := pack clean-packs mods clean-mod-jars clean-mod-zips clean-mods clean-all listmods genhelp genall clean clean-server server
+.PHONY := pack clean-packs mods clean-mod-jars clean-mod-zips clean-mods clean-all listmods genhelp genall clean clean-server server help
 
 PY = $(shell which python3)
 SCRIPT_SHOW_VERSION = $(PY) scripts/show_version.py
@@ -58,6 +58,10 @@ genhelp:
 	@echo >> $(HOW_TO_USE_MAKEFILE_MD)
 	@cat Makefile | grep "###" | grep -v "cat Makefile | grep " >> $(HOW_TO_USE_MAKEFILE_MD)
 	@echo "Makefile guide generated successfully"
+
+### help:                Shows this help
+help:
+	@cat Makefile | grep "###" | grep -v "cat Makefile | grep "
 
 ### genall:              Generates all of the generatable source code files (like mods list, helps, etc.)
 genall: listmods genhelp

@@ -5,6 +5,7 @@
 ### server:              Generates the modpack for server
 ### listmods:            Generates list of the installed mods in the modpack in MODS.md file
 ### genhelp:             Generates this makefile help in HOW_TO_USE_MAKEFILE_MD
+### help:                Shows this help
 ### genall:              Generates all of the generatable source code files (like mods list, helps, etc.)
 ### clean-packs:         Removes the generated modpack zip files
 ### clean-mod-jars:      Deletes the downloaded mod jar files
