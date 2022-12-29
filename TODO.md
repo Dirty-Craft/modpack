@@ -1,15 +1,9 @@
 # TODO
 
-## 1st phase: Find some alternative mods
-There are some mods that are not available for Fabric and are Forge mods or have been for old versions of MineCraft and are not available for the newer versions. We need to find some alternatives for them to add to the modpack:
-
-- **Dehydration**: This currently exists, but it's too complicated. We need to add a simpler mod for dehydration
-- **Additional Mobs**: Adds lots of new cool mobs but is not available for 1.19.2
-
-## 2nd phase: Create logo and symbol
+## 1st step: Create logo and symbol
 We need to create a logo and also organize some documentation for our modpack.
 
-## 3rd phase: Create some mods
+## 2nd step: Create some mods
 There are some mods that we need to create to make our modpack more interesting.
 
 1. A mod to add Paper and Quill to the game.
