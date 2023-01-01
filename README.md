@@ -3,7 +3,7 @@ The Dirty Craft is a Fabric modpack for Minecraft.
 
 Check this out on [Curseforge](https://www.curseforge.com/minecraft/modpacks/dirty_craft/).
 
-Dirty craft is a modpack which inclues different mods to make MineCraft more realistic in overworld.
+Dirty craft is a modpack which includes different mods to make MineCraft more realistic in overworld.
 It adds more crops, fruits, animals, etc.
 
 In addition to more nature and realisticness, it also adds more monsters, boss fights, and mysterious structures.
@@ -23,19 +23,17 @@ To see list of the available mods in this modpack, see [mods list](MODS.md).
 If you are interested in collaborating to this project,
 Here's for you.
 
-This project is self-documented.
-
-We do everything automatically using **Makefile**.
+We do everything automatically using **Makefile** (which is self-documented).
 Check [here](HOW-TO-USE-MAKEFILE.md) to see the available commands.
 
 #### How to add & update mods
-To do this, you have to edit [manifest.json](manifest.json)
+To do this, you should edit [manifest.json](manifest.json)
 and change `fileID` value or add a new mod.
-If you wanna add a new mod, don't forget to set `filename` and `slug` keys too.
+If you wanna add or update mods, don't forget to set `filename` and `slug` keys too.
 They are used in scripts.
 
 #### How to change Minecraft folder config & other files
-You can do it by adding whatever you want in `overrides` folder.
+You can do it by adding whatever you want in `overrides` folder (for example `overrides/config` folder to override configs).
 
 #### How to download mods on my local
 To do that:
@@ -55,6 +53,7 @@ $ make modpack
 ```
 
 It will be generated as a zip file in `_build/modpack`.
+This file can be uploaded to the Curseforge and installed by players.
 
 #### How to generate the modpack for server side
 To generate the server modpack:
@@ -66,7 +65,7 @@ $ make server
 It will be generated as a zip file in `_build/server` as a zip file.
 
 #### What to do by the way?
-We write out TODOs & plans in [TODO.md](TODO.md). Check it out.
+We write our TODOs & plans in [TODO.md](TODO.md). Check it out.
 
 #### How to publish this to Curseforge?
 The project will be automatically published to the Curseforge when you add a **tag**.
