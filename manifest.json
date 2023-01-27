@@ -250,6 +250,27 @@
             "projectID": 399213,
             "fileID": 3852630,
             "required": true
+        },
+        {
+            "filename": "more-totems-mod-2.12.0.jar",
+            "link_slug": "more-totems-of-undying",
+            "projectID": 357265,
+            "fileID": 4153121,
+            "required": true
+        },
+        {
+            "filename": "Emojiful-Fabric-1.19.2-4.0.4.jar",
+            "link_slug": "emojiful",
+            "projectID": 284324,
+            "fileID": 4326651,
+            "required": true
+        },
+        {
+            "filename": "DungeonsArise-1.19.2-2.1.54-fabric.jar",
+            "link_slug": "when-dungeons-arise-fabric",
+            "projectID": 511812,
+            "fileID": 4263871,
+            "required": true
         }
     ],
     "overrides": "overrides"
