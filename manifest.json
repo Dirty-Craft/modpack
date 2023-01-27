@@ -271,6 +271,13 @@
             "projectID": 511812,
             "fileID": 4263871,
             "required": true
+        },
+        {
+            "filename": "twilightforest-fabric-1.19.2-4.2.333.jar",
+            "link_slug": "the-twilight-forest",
+            "projectID": 227639,
+            "fileID": 4194263,
+            "required": true
         }
     ],
     "overrides": "overrides"
