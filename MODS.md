@@ -66,3 +66,4 @@ These are the mods installed in Dirty Craft (1.19.2_dev) modpack:
 - [Decorative+Blocks-fabric-1.19.2-3.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks)
 - [deeperdarker-fabric-1.1.6-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/deeperdarker)
 - [everycomp-1.19.2-2.2.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/every-compat)
+- [moonlight-1.19.2-2.2.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/selene)

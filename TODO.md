@@ -15,6 +15,3 @@ And available with different colors.
 2. A mod to add alcoholic drinks to the game.
 We need lots of functionalities for it to make it the most complete mod for alcoholic drinks in MineCraft.
 Also we should make it compatible with other mods that add new fruits, like Croptopia.
-
-3. A mod to completely change the ender dragon boss fight.
-Currently this boss fight is pretty shit and easy. We have to make it hard as fuck and more interesting.
