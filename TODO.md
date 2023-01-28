@@ -1,12 +1,5 @@
 # TODO
 
-## Things to add
-
-- https://www.curseforge.com/minecraft/mc-mods/upgraded-netherite
-- https://www.curseforge.com/minecraft/mc-mods/reinforced-shulker-boxes
-- https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus
-- https://www.curseforge.com/minecraft/mc-mods/more-mc-music-discs
-
 ## Create logo and symbol
 We need to create a logo and also organize some documentation for our modpack.
 

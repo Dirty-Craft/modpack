@@ -278,6 +278,27 @@
             "projectID": 227639,
             "fileID": 4194263,
             "required": true
+        },
+        {
+            "filename": "reinforced-shulker-boxes-2.2.0+1.19.jar",
+            "link_slug": "reinforced-shulker-boxes",
+            "projectID": 529874,
+            "fileID": 4023343,
+            "required": true
+        },
+        {
+            "filename": "bettercombat-fabric-1.5.5+1.19.jar",
+            "link_slug": "better-combat-by-daedelus",
+            "projectID": 639842,
+            "fileID": 4357587,
+            "required": true
+        },
+        {
+            "filename": "player-animation-lib-fabric-0.4.2.jar",
+            "link_slug": "playeranimator",
+            "projectID": 658587,
+            "fileID": 4357569,
+            "required": true
         }
     ],
     "overrides": "overrides"
