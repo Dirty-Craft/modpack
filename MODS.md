@@ -43,3 +43,5 @@ These are the mods installed in Dirty Craft (1.19.2_dev) modpack:
 - [reinforced-shulker-boxes-2.2.0+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/reinforced-shulker-boxes)
 - [bettercombat-fabric-1.5.5+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus)
 - [player-animation-lib-fabric-0.4.2.jar](https://www.curseforge.com/minecraft/mc-mods/playeranimator)
+- [Adorn-3.8.1+1.19.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/adorn)
+- [fabric-language-kotlin-1.8.6+kotlin.1.7.21.jar](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin)

@@ -299,6 +299,20 @@
             "projectID": 658587,
             "fileID": 4357569,
             "required": true
+        },
+        {
+            "filename": "Adorn-3.8.1+1.19.2-fabric.jar",
+            "link_slug": "adorn",
+            "projectID": 320215,
+            "fileID": 4262536,
+            "required": true
+        },
+        {
+            "filename": "fabric-language-kotlin-1.8.6+kotlin.1.7.21.jar",
+            "link_slug": "fabric-language-kotlin",
+            "projectID": 308769,
+            "fileID": 4075244,
+            "required": true
         }
     ],
     "overrides": "overrides"
