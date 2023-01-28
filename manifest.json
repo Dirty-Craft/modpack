@@ -313,6 +313,97 @@
             "projectID": 308769,
             "fileID": 4075244,
             "required": true
+        },
+        {
+            "filename": "chat_heads-0.9.0-fabric-1.19.2.jar",
+            "link_slug": "chat-heads",
+            "projectID": 407206,
+            "fileID": 4304208,
+            "required": true
+        },
+        {
+            "filename": "comforts-fabric-6.0.3+1.19.2.jar",
+            "link_slug": "comforts-fabric",
+            "projectID": 433539,
+            "fileID": 4105216,
+            "required": true
+        },
+        {
+            "filename": "crawl-0.11.1.jar",
+            "link_slug": "crawl",
+            "projectID": 314579,
+            "fileID": 3972616,
+            "required": true
+        },
+        {
+            "filename": "CreaturesFromTheSnow-4.1.0+1.19.2.jar",
+            "link_slug": "creatures-from-the-snow-fabric",
+            "projectID": 576413,
+            "fileID": 4337261,
+            "required": true
+        },
+        {
+            "filename": "DarkPaintings-Fabric-1.19.2-13.1.5.jar",
+            "link_slug": "dark-paintings",
+            "projectID": 377281,
+            "fileID": 4357105,
+            "required": true
+        },
+        {
+            "filename": "biomemakeover-FABRIC-1.19.2-1.6.2.jar",
+            "link_slug": "biome-makeover",
+            "projectID": 412182,
+            "fileID": 4127075,
+            "required": true
+        },
+        {
+            "filename": "BOMD-1.4.6-1.19.2.jar",
+            "link_slug": "bosses-of-mass-destruction",
+            "projectID": 438365,
+            "fileID": 4175430,
+            "required": true
+        },
+        {
+            "filename": "BetterTridents-v4.0.2-1.19.2-Fabric.jar",
+            "link_slug": "better-tridents",
+            "projectID": 666941,
+            "fileID": 4368298,
+            "required": true
+        },
+        {
+            "filename": "betterstats-2.1.1+1.19.2.jar",
+            "link_slug": "better-stats",
+            "projectID": 667464,
+            "fileID": 4264229,
+            "required": true
+        },
+        {
+            "filename": "PuzzlesLib-v4.3.12-1.19.2-Fabric.jar",
+            "link_slug": "puzzles-lib",
+            "projectID": 495476,
+            "fileID": 4041205,
+            "required": true
+        },
+        {
+            "filename": "architectury-6.4.62-fabric.jar",
+            "link_slug": "architectury-api",
+            "projectID": 419699,
+            "fileID": 4147351,
+            "required": true
+        },
+        {
+            "filename": "cardinal-components-api-5.0.1.jar",
+            "link_slug": "cardinal-components",
+            "projectID": 318449,
+            "fileID": 3858315,
+            "required": true
+        },
+        {
+            "filename": "Bookshelf-Fabric-1.19.2-16.2.17.jar",
+            "link_slug": "bookshelf",
+            "projectID": 228525,
+            "fileID": 4354813,
+            "required": true
         }
     ],
     "overrides": "overrides"
