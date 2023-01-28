@@ -432,6 +432,42 @@
             "projectID": 250419,
             "fileID": 4277355,
             "required": true
+        },
+        {
+            "filename": "dcch-1.2.jar",
+            "link_slug": "dont-clear-chat-history",
+            "projectID": 404400,
+            "fileID": 3827052,
+            "required": true
+        },
+        {
+            "filename": "Decorative+Blocks-fabric-1.19.2-3.0.0.jar",
+            "filename_no_replace_chars": true,
+            "link_slug": "decorative-blocks",
+            "projectID": 362528,
+            "fileID": 3941637,
+            "required": true
+        },
+        {
+            "filename": "deeperdarker-fabric-1.1.6-fabric.jar",
+            "link_slug": "deeperdarker",
+            "projectID": 659011,
+            "fileID": 4166675,
+            "required": true
+        },
+        {
+            "filename": "everycomp-1.19.2-2.2.2-fabric.jar",
+            "link_slug": "every-compat",
+            "projectID": 628539,
+            "fileID": 4264398,
+            "required": true
+        },
+        {
+            "filename": "moonlight-1.19.2-2.2.2-fabric.jar",
+            "link_slug": "selene",
+            "projectID": 499980,
+            "fileID": 4368441,
+            "required": true
         }
     ],
     "overrides": "overrides"

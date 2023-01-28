@@ -62,3 +62,7 @@ These are the mods installed in Dirty Craft (1.19.2_dev) modpack:
 - [duckling-2.0.8-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/duckling)
 - [emotecraft-for-MC1.19.2-2.2.7-b.build.47-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/emotecraft)
 - [EnchantmentDescriptions-Fabric-1.19.2-13.0.14.jar](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)
+- [dcch-1.2.jar](https://www.curseforge.com/minecraft/mc-mods/dont-clear-chat-history)
+- [Decorative+Blocks-fabric-1.19.2-3.0.0.jar](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks)
+- [deeperdarker-fabric-1.1.6-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/deeperdarker)
+- [everycomp-1.19.2-2.2.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/every-compat)
