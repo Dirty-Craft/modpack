@@ -58,3 +58,7 @@ These are the mods installed in Dirty Craft (1.19.2_dev) modpack:
 - [architectury-6.4.62-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/architectury-api)
 - [cardinal-components-api-5.0.1.jar](https://www.curseforge.com/minecraft/mc-mods/cardinal-components)
 - [Bookshelf-Fabric-1.19.2-16.2.17.jar](https://www.curseforge.com/minecraft/mc-mods/bookshelf)
+- [dragonloot-1.1.2.jar](https://www.curseforge.com/minecraft/mc-mods/dragonloot)
+- [duckling-2.0.8-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/duckling)
+- [emotecraft-for-MC1.19.2-2.2.7-b.build.47-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/emotecraft)
+- [EnchantmentDescriptions-Fabric-1.19.2-13.0.14.jar](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)

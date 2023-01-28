@@ -404,6 +404,34 @@
             "projectID": 228525,
             "fileID": 4354813,
             "required": true
+        },
+        {
+            "filename": "dragonloot-1.1.2.jar",
+            "link_slug": "dragonloot",
+            "projectID": 424480,
+            "fileID": 3951137,
+            "required": true
+        },
+        {
+            "filename": "duckling-2.0.8-fabric.jar",
+            "link_slug": "duckling",
+            "projectID": 597248,
+            "fileID": 4127030,
+            "required": true
+        },
+        {
+            "filename": "emotecraft-for-MC1.19.2-2.2.7-b.build.47-fabric.jar",
+            "link_slug": "emotecraft",
+            "projectID": 397809,
+            "fileID": 4173795,
+            "required": true
+        },
+        {
+            "filename": "EnchantmentDescriptions-Fabric-1.19.2-13.0.14.jar",
+            "link_slug": "enchantment-descriptions",
+            "projectID": 250419,
+            "fileID": 4277355,
+            "required": true
         }
     ],
     "overrides": "overrides"
