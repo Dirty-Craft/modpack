@@ -40,3 +40,6 @@ These are the mods installed in Dirty Craft (1.19.2_dev) modpack:
 - [Emojiful-Fabric-1.19.2-4.0.4.jar](https://www.curseforge.com/minecraft/mc-mods/emojiful)
 - [DungeonsArise-1.19.2-2.1.54-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise-fabric)
 - [twilightforest-fabric-1.19.2-4.2.333.jar](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
+- [reinforced-shulker-boxes-2.2.0+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/reinforced-shulker-boxes)
+- [bettercombat-fabric-1.5.5+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus)
+- [player-animation-lib-fabric-0.4.2.jar](https://www.curseforge.com/minecraft/mc-mods/playeranimator)
