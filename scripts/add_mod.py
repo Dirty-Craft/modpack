@@ -5,8 +5,6 @@ import requests
 import json
 
 
-pprint(tools.call_curseforge_api('categories?gameId=432')['data'])
-
 def add_once(slug):
     try:
         result = tools.call_curseforge_api('mods/search?gameId=' + tools.CURSEFORGE_MINECRAFT_GAME_ID + '&classId=' + tools.CURSEFORGE_MINECRAFT_MODS_CLASS_ID + '&slug=' + slug)
