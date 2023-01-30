@@ -32,6 +32,18 @@ and change `fileID` value or add a new mod.
 If you wanna add or update mods, don't forget to set `filename` and `slug` keys too.
 They are used in scripts.
 
+**Looking for an easier way to add mods?** Use the automated script:
+
+```shell
+$ python3 scripts/add_mod.py <slugs...>
+$ python3 scripts/add_mod.py betterend the-bumblezone-fabric
+```
+
+Then you should select the file that you want to be selected, then it will be added to the manifest.json!
+
+**NOTE**: to use this script, you need to create a file called `.curseforge-api-key.txt` and put **Curseforge API key** in it.
+And it also requires **Python `requests` package** too.
+
 #### How to change Minecraft folder config & other files
 You can do it by adding whatever you want in `overrides` folder (for example `overrides/config` folder to override configs).
 
