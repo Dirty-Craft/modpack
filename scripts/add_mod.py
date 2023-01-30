@@ -5,6 +5,8 @@ import requests
 import json
 
 
+SKIPPED_ITEMS = []
+
 def is_already_added(mod_id):
     for item in tools.load_manifest()['files']:
         if str(item['projectID']) == str(mod_id):
@@ -25,7 +27,7 @@ def add_once(slug):
     print(msg)
 
     if is_already_added(result['id']):
-        print('This mod is already installed. Skipping...')
+        print('This mod is already installed. Skipped...')
         return
 
     item_to_add_to_manifest = {
@@ -46,10 +48,13 @@ def add_once(slug):
     if len(files_list) <= 0 and is_auto_select:
         is_auto_select = False
         print('Failed to auto select. You should select the version manually:')
+        if '--skip' in sys.argv:
+                SKIPPED_ITEMS.append('Skipped ' + result['slug'] + ' | ' + str(result['id']))
+                print(SKIPPED_ITEMS[-1])
+                return
         files_list = tools.call_curseforge_api('mods/' + str(result['id']) + '/files')['data']
 
     files_list.reverse()
-
 
     print('Select the file you want to add to the modpack:')
     i = 0
@@ -67,6 +72,10 @@ def add_once(slug):
 
     if selected_item is None:
         if is_auto_select:
+            if '--skip' in sys.argv:
+                SKIPPED_ITEMS.append(result['slug'] + ' | ' + str(result['id']))
+                print(SKIPPED_ITEMS[-1])
+                return
             print('Failed to auto select. You should select the version manually:')
 
         while True:
@@ -122,5 +131,12 @@ if len(sys.argv) <= 1:
 
 
 for arg in sys.argv[1:]:
-    if arg != '-y' and arg != '--auto-select':
+    if arg != '-y' and arg != '--auto-select' and arg != '--skip':
         add_once(arg)
+
+if SKIPPED_ITEMS:
+    print('========================')
+    print('========================')
+    print('========================')
+    print('These items are skipped:')
+    print('\n'.join(SKIPPED_ITEMS))
