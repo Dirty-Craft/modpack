@@ -38,6 +38,8 @@ They are used in scripts.
 $ python3 scripts/add_mod.py <slugs...>
 $ python3 scripts/add_mod.py betterend the-bumblezone-fabric
 $ python3 scripts/add_mod.py betterend the-bumblezone-fabric -y # you can use -y flag to skip the confirmation step
+$ python3 scripts/add_mod.py betterend the-bumblezone-fabric --auto-select # you can also automate the file selection. but some times it fails to do it, so it may ask you to do it manually for some items
+$ python3 scripts/add_mod.py betterend the-bumblezone-fabric --auto-select -y # and this will be the most automated mode for it
 ```
 
 Then you should select the file that you want to be selected, then it will be added to the manifest.json!

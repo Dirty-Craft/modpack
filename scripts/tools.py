@@ -22,6 +22,10 @@ def get_version():
     return get_version()
 
 
+def get_game_version():
+    return get_version().split('-')[0].split('_')[0]
+
+
 def load_manifest():
     """ Returns manifest json content """
     manifest_file = open('manifest.json', 'r')

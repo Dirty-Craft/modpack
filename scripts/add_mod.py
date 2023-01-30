@@ -36,8 +36,20 @@ def add_once(slug):
         "required": True,
     }
 
-    files_list = tools.call_curseforge_api('mods/' + str(result['id']) + '/files')['data']
+    is_auto_select = '--auto-select' in sys.argv
+    additional_args = ''
+    if is_auto_select:
+        additional_args = '?modLoaderType=Fabric&gameVersion=' + tools.get_game_version()
+
+    files_list = tools.call_curseforge_api('mods/' + str(result['id']) + '/files' + additional_args)['data']
+
+    if len(files_list) <= 0 and is_auto_select:
+        is_auto_select = False
+        print('Failed to auto select. You should select the version manually:')
+        files_list = tools.call_curseforge_api('mods/' + str(result['id']) + '/files')['data']
+
     files_list.reverse()
+
 
     print('Select the file you want to add to the modpack:')
     i = 0
@@ -45,12 +57,24 @@ def add_once(slug):
         print("[" + str(i) + "] ID " + str(f['id']) + " " + str(f['displayName']) + "  (" + str(f['fileName']) + ")")
         i += 1
 
-    while True:
-        try:
-            selected_item = files_list[int(input('> '))]
-            break
-        except:
-            print('error: enter an valid number')
+    selected_item = None
+
+    if is_auto_select:
+        for f in files_list:
+            for ver in f['sortableGameVersions']:
+                if ver['gameVersion'] == 'Fabric' or ver['gameVersionName'] == 'Fabric':
+                    selected_item = f
+
+    if selected_item is None:
+        if is_auto_select:
+            print('Failed to auto select. You should select the version manually:')
+
+        while True:
+            try:
+                selected_item = files_list[int(input('> '))]
+                break
+            except:
+                print('error: enter an valid number')
 
     dependencies = selected_item['dependencies']
     required_dependencies = []
@@ -98,5 +122,5 @@ if len(sys.argv) <= 1:
 
 
 for arg in sys.argv[1:]:
-    if arg != '-y':
+    if arg != '-y' and arg != '--auto-select':
         add_once(arg)
