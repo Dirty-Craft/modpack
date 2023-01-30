@@ -49,7 +49,10 @@ def add_once(slug):
     pprint(item_to_add_to_manifest)
     print()
 
-    confirmation = input('Do you confirm that? [y/n] ').upper()
+    if '-y' in sys.argv:
+        confirmation = 'Y'
+    else:
+        confirmation = input('Do you confirm that? [y/n] ').upper()
     if confirmation == 'Y' or confirmation == '':
         manifest_f = open('manifest.json', 'r')
         manifest = json.load(manifest_f)
@@ -72,4 +75,5 @@ if len(sys.argv) <= 1:
 
 
 for arg in sys.argv[1:]:
-    add_once(arg)
+    if arg != '-y':
+        add_once(arg)

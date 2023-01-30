@@ -37,6 +37,7 @@ They are used in scripts.
 ```shell
 $ python3 scripts/add_mod.py <slugs...>
 $ python3 scripts/add_mod.py betterend the-bumblezone-fabric
+$ python3 scripts/add_mod.py betterend the-bumblezone-fabric -y # you can use -y flag to skip the confirmation step
 ```
 
 Then you should select the file that you want to be selected, then it will be added to the manifest.json!
