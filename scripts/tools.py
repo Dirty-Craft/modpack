@@ -9,6 +9,7 @@ BUILD_DIR = '_build'
 
 CURSEFORGE_URL = 'https://api.curseforge.com/v1/'
 CURSEFORGE_MINECRAFT_GAME_ID = '432'
+CURSEFORGE_MINECRAFT_MODS_CLASS_ID = '6'
 
 def get_version():
     """ Loads the version name from version.txt """

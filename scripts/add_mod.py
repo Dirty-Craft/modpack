@@ -1,13 +1,15 @@
 import tools
 import sys
-import pprint
+from pprint import pprint
 import requests
 import json
 
 
+pprint(tools.call_curseforge_api('categories?gameId=432')['data'])
+
 def add_once(slug):
     try:
-        result = tools.call_curseforge_api('mods/search?gameId=' + tools.CURSEFORGE_MINECRAFT_GAME_ID + '&slug=' + slug)
+        result = tools.call_curseforge_api('mods/search?gameId=' + tools.CURSEFORGE_MINECRAFT_GAME_ID + '&classId=' + tools.CURSEFORGE_MINECRAFT_MODS_CLASS_ID + '&slug=' + slug)
         result = result['data'][0]
     except:
         print('error: invalid slug "' + slug + '"')
@@ -25,15 +27,18 @@ def add_once(slug):
         "required": True,
     }
 
+    files_list = tools.call_curseforge_api('mods/' + str(result['id']) + '/files')['data']
+    files_list.reverse()
+
     print('Select the file you want to add to the modpack:')
     i = 0
-    for f in result['latestFiles']:
+    for f in files_list:
         print("[" + str(i) + "] ID " + str(f['id']) + " " + str(f['displayName']) + "  (" + str(f['fileName']) + ")")
         i += 1
 
     while True:
         try:
-            selected_item = result['latestFiles'][int(input('> '))]
+            selected_item = files_list[int(input('> '))]
             break
         except:
             print('error: enter an valid number')
@@ -43,7 +48,7 @@ def add_once(slug):
 
     print('This item is going to be added to manifest.json:')
     print()
-    pprint.pprint(item_to_add_to_manifest)
+    pprint(item_to_add_to_manifest)
     print()
 
     confirmation = input('Do you confirm that? [y/n] ').upper()
