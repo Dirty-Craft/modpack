@@ -3,17 +3,14 @@
 - Add some GUI improvement mods
 - Add every single possible performance optimization mod
 - Cleanup configs
-
-## Create logo and symbol
-We need to create a logo and also organize some documentation for our modpack.
+- Update to 1.19.3
+- Create logo and symbol and organize descriptions of the modpack
 
 ## Mods to create
-There are some mods that we need to create to make our modpack more interesting.
-We're planning to create all of them in long term.
 
 1. A mod to add Paper and Quill to the game.
 We need a kind of paper which acts like book and quill and can be signed by players.
-Also it should be stackable
+Also it should be stackable.
 And available with different colors.
 
 2. A mod to add alcoholic drinks to the game.
