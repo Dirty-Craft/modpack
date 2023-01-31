@@ -23,7 +23,7 @@ def get_version():
 
 
 def get_game_version():
-    return get_version().split('-')[0].split('_')[0]
+    return load_manifest()['minecraft']['version']
 
 
 def load_manifest():
