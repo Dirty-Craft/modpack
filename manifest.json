@@ -776,6 +776,293 @@
             "projectID": 375969,
             "fileID": 3853629,
             "required": true
+        },
+        {
+            "filename": "farsight-fabric-1.19-2.4.jar",
+            "link_slug": "farsight-fabric",
+            "projectID": 579192,
+            "fileID": 4135258,
+            "required": true
+        },
+        {
+            "filename": "morechathistory-1.19.1-1.1.1.jar",
+            "link_slug": "more-chat-history",
+            "projectID": 518319,
+            "fileID": 3902698,
+            "required": true
+        },
+        {
+            "filename": "fastquit-2.1.0+1.19-1.19.2.jar",
+            "link_slug": "fastquit",
+            "projectID": 708967,
+            "fileID": 4323778,
+            "required": true
+        },
+        {
+            "filename": "modmenu-4.1.2.jar",
+            "link_slug": "modmenu",
+            "projectID": 308702,
+            "fileID": 4145207,
+            "required": true
+        },
+        {
+            "filename": "yosbr-0.1.1.jar",
+            "link_slug": "yosbr",
+            "projectID": 374274,
+            "fileID": 2934596,
+            "required": true
+        },
+        {
+            "filename": "starlight-1.1.1+fabric.ae22326.jar",
+            "link_slug": "starlight",
+            "projectID": 521783,
+            "fileID": 3835973,
+            "required": true
+        },
+        {
+            "filename": "mixintrace-1.1.1+1.17.jar",
+            "link_slug": "mixintrace",
+            "projectID": 433447,
+            "fileID": 3831043,
+            "required": true
+        },
+        {
+            "filename": "animatica-0.5+1.19.jar",
+            "link_slug": "animatica",
+            "projectID": 533006,
+            "fileID": 3844732,
+            "required": true
+        },
+        {
+            "filename": "sodium-fabric-mc1.19.2-0.4.4+build.18.jar",
+            "link_slug": "sodium",
+            "projectID": 394468,
+            "fileID": 3957319,
+            "required": true
+        },
+        {
+            "filename": "indium-1.0.9+mc1.19.2.jar",
+            "link_slug": "indium",
+            "projectID": 459496,
+            "fileID": 3957480,
+            "required": true
+        },
+        {
+            "filename": "entity_texture_features_fabric_1.19.2-4.3.1.jar",
+            "link_slug": "entity-texture-features-fabric",
+            "projectID": 568563,
+            "fileID": 4291870,
+            "required": true
+        },
+        {
+            "filename": "reeses_sodium_options-1.4.9+mc1.19.2-build.67.jar",
+            "link_slug": "reeses-sodium-options",
+            "projectID": 511319,
+            "fileID": 4126247,
+            "required": true
+        },
+        {
+            "filename": "fabrishot-1.9.1.jar",
+            "link_slug": "fabrishot",
+            "projectID": 404870,
+            "fileID": 4017838,
+            "required": true
+        },
+        {
+            "filename": "ferritecore-5.0.3-fabric.jar",
+            "link_slug": "ferritecore-fabric",
+            "projectID": 459857,
+            "fileID": 4117902,
+            "required": true
+        },
+        {
+            "filename": "antighost-1.19.1-fabric0.58.5-1.1.5.jar",
+            "link_slug": "antighost",
+            "projectID": 273279,
+            "fileID": 3907240,
+            "required": true
+        },
+        {
+            "filename": "main-menu-credits-1.1.1.jar",
+            "link_slug": "main-menu-credits",
+            "projectID": 618812,
+            "fileID": 3846496,
+            "required": true
+        },
+        {
+            "filename": "lazydfu-0.1.3.jar",
+            "link_slug": "lazydfu",
+            "projectID": 433518,
+            "fileID": 3821870,
+            "required": true
+        },
+        {
+            "filename": "sodium-extra-0.4.16+mc1.19.2-build.90.jar",
+            "link_slug": "sodium-extra",
+            "projectID": 447673,
+            "fileID": 4279044,
+            "required": true
+        },
+        {
+            "filename": "Capes-1.4.5+1.19.jar",
+            "link_slug": "capes",
+            "projectID": 408481,
+            "fileID": 3966267,
+            "required": true
+        },
+        {
+            "filename": "advancementinfo-1.19.1-fabric0.58.5-1.3.1.jar",
+            "link_slug": "advancementinfo",
+            "projectID": 403815,
+            "fileID": 3907238,
+            "required": true
+        },
+        {
+            "filename": "modelfix-1.8-fabric.jar",
+            "link_slug": "model-gap-fix",
+            "projectID": 676136,
+            "fileID": 4024854,
+            "required": true
+        },
+        {
+            "filename": "fabricskyboxes-0.6.2+mc1.19.2.jar",
+            "link_slug": "fabricskyboxes",
+            "projectID": 408209,
+            "fileID": 4363110,
+            "required": true
+        },
+        {
+            "filename": "dynamic-fps-2.2.0.jar",
+            "link_slug": "dynamic-fps",
+            "projectID": 335493,
+            "fileID": 3829250,
+            "required": true
+        },
+        {
+            "filename": "betterbeds-1.2.0.jar",
+            "link_slug": "better-beds",
+            "projectID": 443782,
+            "fileID": 3342338,
+            "required": true
+        },
+        {
+            "filename": "entityculling-fabric-1.5.2-mc1.19.jar",
+            "link_slug": "entityculling",
+            "projectID": 448233,
+            "fileID": 3823508,
+            "required": true
+        },
+        {
+            "filename": "CITResewn-1.1.2+1.19.2.jar",
+            "link_slug": "cit-resewn",
+            "projectID": 521427,
+            "fileID": 3975969,
+            "required": true
+        },
+        {
+            "filename": "bettermounthud-1.2.0.jar",
+            "link_slug": "better-mount-hud",
+            "projectID": 475358,
+            "fileID": 4023319,
+            "required": true
+        },
+        {
+            "filename": "NoChatReports-FABRIC-1.19.2-v1.13.12.jar",
+            "link_slug": "no-chat-reports",
+            "projectID": 634062,
+            "fileID": 4082460,
+            "required": true
+        },
+        {
+            "filename": "moreculling-1.19.1-0.15.0.jar",
+            "link_slug": "moreculling",
+            "projectID": 630104,
+            "fileID": 4367187,
+            "required": true
+        },
+        {
+            "filename": "fsb-interop-1.1.3+mc1.19.2-build.25.jar",
+            "link_slug": "fabricskyboxes-interop",
+            "projectID": 697845,
+            "fileID": 4143343,
+            "required": true
+        },
+        {
+            "filename": "midnightlib-fabric-1.0.0.jar",
+            "link_slug": "midnightlib",
+            "projectID": 488090,
+            "fileID": 4059589,
+            "required": true
+        },
+        {
+            "filename": "puzzle-1.4.2-1.19.jar",
+            "link_slug": "puzzle",
+            "projectID": 563977,
+            "fileID": 4303811,
+            "required": true
+        },
+        {
+            "filename": "lambdynamiclights-2.2.0+1.19.2.jar",
+            "link_slug": "lambdynamiclights",
+            "projectID": 393442,
+            "fileID": 4257321,
+            "required": true
+        },
+        {
+            "filename": "Debugify-2.8.0.jar",
+            "link_slug": "debugify",
+            "projectID": 596224,
+            "fileID": 4060233,
+            "required": true
+        },
+        {
+            "filename": "MixinConflictHelper-1.2.0.jar",
+            "link_slug": "mixin-conflict-helper",
+            "projectID": 643052,
+            "fileID": 3942300,
+            "required": true
+        },
+        {
+            "filename": "borderless-mining-1.1.5+1.19.jar",
+            "link_slug": "borderless-mining",
+            "projectID": 310205,
+            "fileID": 3865813,
+            "required": true
+        },
+        {
+            "filename": "lithium-fabric-mc1.19.2-0.10.4.jar",
+            "link_slug": "lithium",
+            "projectID": 360438,
+            "fileID": 4151762,
+            "required": true
+        },
+        {
+            "filename": "iris-mc1.19.2-1.5.0.jar",
+            "link_slug": "irisshaders",
+            "projectID": 455508,
+            "fileID": 4284512,
+            "required": true
+        },
+        {
+            "filename": "language-reload-1.5.4+1.19.2.jar",
+            "link_slug": "language-reload",
+            "projectID": 527334,
+            "fileID": 4337552,
+            "required": true
+        },
+        {
+            "filename": "memoryleakfix-1.19.3-0.7.0.jar",
+            "link_slug": "memoryleakfix",
+            "projectID": 627566,
+            "fileID": 4147605,
+            "required": true
+        },
+        {
+            "filename": "cem-0.7.1.jar",
+            "link_slug": "custom-entity-models-cem",
+            "projectID": 477078,
+            "fileID": 3821136,
+            "required": true
         }
     ],
     "overrides": "overrides"
