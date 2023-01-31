@@ -2,6 +2,7 @@
 
 - Add some GUI improvement mods
 - Add every single possible performance optimization mod
+- Add an Anti-Cheat
 - Cleanup configs
 - Update to 1.19.3
 - Create logo and symbol and organize descriptions of the modpack
