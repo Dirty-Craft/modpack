@@ -129,8 +129,14 @@ if len(sys.argv) <= 1:
     sys.exit(1)
 
 
+if '--full-auto' in sys.argv:
+    sys.argv.append('--auto-select')
+    sys.argv.append('--skip')
+    sys.argv.append('-y')
+
+
 for arg in sys.argv[1:]:
-    if arg != '-y' and arg != '--auto-select' and arg != '--skip':
+    if arg != '-y' and arg != '--auto-select' and arg != '--skip' and arg != '--full-auto':
         add_once(arg)
 
 if SKIPPED_ITEMS:

@@ -1063,6 +1063,174 @@
             "projectID": 477078,
             "fileID": 3821136,
             "required": true
+        },
+        {
+            "filename": "appleskin-fabric-mc1.19-2.4.1.jar",
+            "link_slug": "appleskin",
+            "projectID": 248787,
+            "fileID": 3927567,
+            "required": true
+        },
+        {
+            "filename": "jei-1.19.2-fabric-11.5.2.1007.jar",
+            "link_slug": "jei",
+            "projectID": 238222,
+            "fileID": 4354614,
+            "required": true
+        },
+        {
+            "filename": "invhud.fabric.1.19-3.4.7.jar",
+            "link_slug": "inventory-hud-forge",
+            "projectID": 357540,
+            "fileID": 4153723,
+            "required": true
+        },
+        {
+            "filename": "shulkerboxtooltip-fabric-3.2.2+1.19.2.jar",
+            "link_slug": "shulkerboxtooltip",
+            "projectID": 315811,
+            "fileID": 4054090,
+            "required": true
+        },
+        {
+            "filename": "Xaeros_Minimap_22.17.1_Fabric_1.19.1.jar",
+            "link_slug": "xaeros-minimap",
+            "projectID": 263420,
+            "fileID": 4338622,
+            "required": true
+        },
+        {
+            "filename": "clickadv-fabric-3.0.jar",
+            "link_slug": "clickable-advancements",
+            "projectID": 511733,
+            "fileID": 4258161,
+            "required": true
+        },
+        {
+            "filename": "smoothchunk-fabric-1.19.1-2.0.jar",
+            "link_slug": "smooth-chunk-save",
+            "projectID": 582327,
+            "fileID": 3912883,
+            "required": true
+        },
+        {
+            "filename": "BetterF3-4.0.0-Fabric-1.19.2.jar",
+            "link_slug": "betterf3",
+            "projectID": 401648,
+            "fileID": 4030572,
+            "required": true
+        },
+        {
+            "filename": "BetterCompatibilityChecker-Fabric-2.0.2-build.16+mc1.19.1.jar",
+            "link_slug": "better-compatibility-checker",
+            "projectID": 551894,
+            "fileID": 3904696,
+            "required": true
+        },
+        {
+            "filename": "Tips-Fabric-1.19.2-8.0.27.jar",
+            "link_slug": "tips",
+            "projectID": 306549,
+            "fileID": 4277193,
+            "required": true
+        },
+        {
+            "filename": "Iceberg-1.19.1-fabric-1.0.46.jar",
+            "link_slug": "iceberg-fabric",
+            "projectID": 539382,
+            "fileID": 3922111,
+            "required": true
+        },
+        {
+            "filename": "AdvancementPlaques-1.19.2-fabric-1.4.6.jar",
+            "link_slug": "advancement-plaques-fabric",
+            "projectID": 514882,
+            "fileID": 3949457,
+            "required": true
+        },
+        {
+            "filename": "malilib-fabric-1.19.2-0.13.0.jar",
+            "link_slug": "malilib",
+            "projectID": 303119,
+            "fileID": 3923052,
+            "required": true
+        },
+        {
+            "filename": "litematica-fabric-1.19.2-0.12.6.jar",
+            "link_slug": "litematica",
+            "projectID": 308892,
+            "fileID": 4259743,
+            "required": true
+        },
+        {
+            "filename": "BetterPingDisplay-Fabric-1.19.2-1.1.1.jar",
+            "link_slug": "better-ping-display-fabric",
+            "projectID": 406343,
+            "fileID": 4018586,
+            "required": true
+        },
+        {
+            "filename": "AdditionalBanners-Fabric-1.19.2-10.1.6.jar",
+            "link_slug": "additional-banners",
+            "projectID": 230137,
+            "fileID": 4068892,
+            "required": true
+        },
+        {
+            "filename": "TravelersTitles-1.19.2-Fabric-3.1.0.jar",
+            "link_slug": "travelers-titles-fabric",
+            "projectID": 590990,
+            "fileID": 4031239,
+            "required": true
+        },
+        {
+            "filename": "minihud-fabric-1.19.2-0.23.3.jar",
+            "link_slug": "minihud",
+            "projectID": 244260,
+            "fileID": 3923228,
+            "required": true
+        },
+        {
+            "filename": "observable-3.3.1.jar",
+            "link_slug": "observable",
+            "projectID": 509575,
+            "fileID": 4193013,
+            "required": true
+        },
+        {
+            "filename": "EquipmentCompare-1.19-fabric-1.3.1.jar",
+            "link_slug": "equipment-compare-fabric",
+            "projectID": 541329,
+            "fileID": 3848278,
+            "required": true
+        },
+        {
+            "filename": "ShowMeWhatYouGot-1.19.2-1.0.3.jar",
+            "link_slug": "show-me-what-you-got",
+            "projectID": 564941,
+            "fileID": 4226868,
+            "required": true
+        },
+        {
+            "filename": "elytra-chestplate-swapper-1.2.1-MC1.19.jar",
+            "link_slug": "elytra-chestplate-swapper",
+            "projectID": 473125,
+            "fileID": 3823099,
+            "required": true
+        },
+        {
+            "filename": "polylib-fabric-1900.0.2-build.42.jar",
+            "link_slug": "polylib",
+            "projectID": 576589,
+            "fileID": 4110279,
+            "required": true
+        },
+        {
+            "filename": "minetogether-fabric-1.19.2-6.0.14.jar",
+            "link_slug": "creeperhost-minetogether",
+            "projectID": 267172,
+            "fileID": 4346981,
+            "required": true
         }
     ],
     "overrides": "overrides"

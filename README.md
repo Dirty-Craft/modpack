@@ -41,6 +41,7 @@ $ python3 scripts/add_mod.py betterend the-bumblezone-fabric -y # you can use -y
 $ python3 scripts/add_mod.py betterend the-bumblezone-fabric --auto-select # you can also automate the file selection. but some times it fails to do it, so it may ask you to do it manually for some items
 $ python3 scripts/add_mod.py betterend the-bumblezone-fabric --auto-select --skip # if you want to skip the ones that their version can't be selected automatically, you can use --skip. It skips them and prints them at the end of the process, so you can try to add them again later
 $ python3 scripts/add_mod.py betterend the-bumblezone-fabric --auto-select --skip -y # and this will be the most automated mode for it
+$ python3 scripts/add_mod.py betterend the-bumblezone-fabric --full-auto # or you can use --full-auto, it equals `--auto-select --skip -y`
 ```
 
 Then you should select the file that you want to be selected, then it will be added to the manifest.json!

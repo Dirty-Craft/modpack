@@ -1,6 +1,5 @@
 # TODO
 
-- Add some GUI improvement mods
 - Add an Anti-Cheat
 - Update to 1.19.3
 - Cleanup configs
