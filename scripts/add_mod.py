@@ -65,10 +65,8 @@ def add_once(slug):
     selected_item = None
 
     if is_auto_select:
-        for f in files_list:
-            for ver in f['sortableGameVersions']:
-                if ver['gameVersion'] == 'Fabric' or ver['gameVersionName'] == 'Fabric':
-                    selected_item = f
+        if files_list:
+            selected_item = files_list[-1]
 
     if selected_item is None:
         if is_auto_select:
@@ -91,7 +89,8 @@ def add_once(slug):
         if dep['relationType'] == 3:
             required_dependencies.append(dep['modId'])
 
-    print('There are ' + str(len(required_dependencies)) + ' required dependencies for this item. Installing them too...')
+    if required_dependencies:
+        print('There are ' + str(len(required_dependencies)) + ' required dependencies for this item. Installing them too...')
 
     for dep in required_dependencies:
         dep_data = tools.call_curseforge_api('mods/' + str(dep))['data']
