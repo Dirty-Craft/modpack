@@ -1,6 +1,5 @@
 # TODO
 
-- Update to 1.19.3
 - Cleanup configs
 - Create logo and symbol and organize descriptions of the modpack
 
