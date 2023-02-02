@@ -14,7 +14,7 @@ def is_already_added(mod_id):
     return False
 
 
-def add_once(slug):
+def add_once(slug, is_update=False, game_version=None):
     try:
         result = tools.call_curseforge_api('mods/search?gameId=' + tools.CURSEFORGE_MINECRAFT_GAME_ID + '&classId=' + tools.CURSEFORGE_MINECRAFT_MODS_CLASS_ID + '&slug=' + slug)
         result = result['data'][0]
@@ -22,11 +22,14 @@ def add_once(slug):
         print('error: failed to load slug "' + slug + '": ' + str(ex))
         return
 
+    if not game_version:
+        game_version = tools.get_game_version()
+
     msg = ('Loading project ID ' + str(result['id']) + ' (' + result['slug'] + ')')
     print('=' * len(msg))
     print(msg)
 
-    if is_already_added(result['id']):
+    if is_already_added(result['id']) and not is_update:
         print('This mod is already installed. Skipped...')
         return
 
@@ -41,7 +44,7 @@ def add_once(slug):
     is_auto_select = '--auto-select' in sys.argv
     additional_args = ''
     if is_auto_select:
-        additional_args = '?modLoaderType=Fabric&gameVersion=' + tools.get_game_version()
+        additional_args = '?modLoaderType=Fabric&gameVersion=' + game_version
 
     files_list = tools.call_curseforge_api('mods/' + str(result['id']) + '/files' + additional_args)['data']
 
@@ -99,6 +102,9 @@ def add_once(slug):
     item_to_add_to_manifest['fileID'] = selected_item['id']
     item_to_add_to_manifest['filename'] = selected_item['fileName']
 
+    if is_update:
+        return item_to_add_to_manifest
+
     print('This item is going to be added to manifest.json:')
     print()
     pprint(item_to_add_to_manifest)
@@ -124,24 +130,23 @@ def add_once(slug):
         print('Cancelled')
 
 
-if len(sys.argv) <= 1:
-    print('error: missing slugs arguments')
-    sys.exit(1)
+if __name__ == '__main__':
+    if len(sys.argv) <= 1:
+        print('error: missing slugs arguments')
+        sys.exit(1)
 
+    if '--full-auto' in sys.argv:
+        sys.argv.append('--auto-select')
+        sys.argv.append('--skip')
+        sys.argv.append('-y')
 
-if '--full-auto' in sys.argv:
-    sys.argv.append('--auto-select')
-    sys.argv.append('--skip')
-    sys.argv.append('-y')
+    for arg in sys.argv[1:]:
+        if arg != '-y' and arg != '--auto-select' and arg != '--skip' and arg != '--full-auto':
+            add_once(arg)
 
-
-for arg in sys.argv[1:]:
-    if arg != '-y' and arg != '--auto-select' and arg != '--skip' and arg != '--full-auto':
-        add_once(arg)
-
-if SKIPPED_ITEMS:
-    print('========================')
-    print('========================')
-    print('========================')
-    print('These items are skipped:')
-    print('\n'.join(SKIPPED_ITEMS))
+    if SKIPPED_ITEMS:
+        print('========================')
+        print('========================')
+        print('========================')
+        print('These items are skipped:')
+        print('\n'.join(SKIPPED_ITEMS))
