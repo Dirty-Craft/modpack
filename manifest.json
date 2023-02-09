@@ -182,10 +182,10 @@
             "required": true
         },
         {
-            "filename": "queen-cats-1.0.2-1.19.2-Fabric.jar",
+            "filename": "queen-cats-1.0.3-1.19.3-Fabric.jar",
             "link_slug": "queen-cats-dogs",
             "projectID": 684706,
-            "fileID": 4074869,
+            "fileID": 4377648,
             "required": true
         },
         {
@@ -196,17 +196,17 @@
             "required": true
         },
         {
-            "filename": "the_bumblezone_fabric-6.6.2+1.19.3.jar",
+            "filename": "the_bumblezone-6.6.3+1.19.3-fabric.jar",
             "link_slug": "the-bumblezone-fabric",
             "projectID": 363949,
-            "fileID": 4329582,
+            "fileID": 4386170,
             "required": true
         },
         {
-            "filename": "travelers-backpack-1.19.3-8.3.1.jar",
+            "filename": "travelers-backpack-1.19.3-8.3.2.jar",
             "link_slug": "travelers-backpack-fabric",
             "projectID": 541171,
-            "fileID": 4374640,
+            "fileID": 4386249,
             "required": true
         },
         {
@@ -308,10 +308,10 @@
             "required": true
         },
         {
-            "filename": "fabric-language-kotlin-1.9.0+kotlin.1.8.0.jar",
+            "filename": "fabric-language-kotlin-1.9.1+kotlin.1.8.10.jar",
             "link_slug": "fabric-language-kotlin",
             "projectID": 308769,
-            "fileID": 4276483,
+            "fileID": 4378167,
             "required": true
         },
         {
@@ -357,10 +357,10 @@
             "required": true
         },
         {
-            "filename": "BOMD-1.5-1.19.3.jar",
+            "filename": "BOMD-1.5.1-1.19.3.jar",
             "link_slug": "bosses-of-mass-destruction",
             "projectID": 438365,
-            "fileID": 4215755,
+            "fileID": 4384576,
             "required": true
         },
         {
@@ -371,10 +371,10 @@
             "required": true
         },
         {
-            "filename": "betterstats-2.1.+1.19.3.jar",
+            "filename": "betterstats-2.2.1+1.19.3.jar",
             "link_slug": "better-stats",
             "projectID": 667464,
-            "fileID": 4264232,
+            "fileID": 4378076,
             "required": true
         },
         {
@@ -385,10 +385,10 @@
             "required": true
         },
         {
-            "filename": "architectury-7.0.66-fabric.jar",
+            "filename": "architectury-7.1.70-fabric.jar",
             "link_slug": "architectury-api",
             "projectID": 419699,
-            "fileID": 4252900,
+            "fileID": 4384408,
             "required": true
         },
         {
@@ -470,10 +470,10 @@
             "required": true
         },
         {
-            "filename": "ForgeConfigAPIPort-v5.0.7-1.19.3-Fabric.jar",
+            "filename": "ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric.jar",
             "link_slug": "forge-config-api-port-fabric",
             "projectID": 547434,
-            "fileID": 4369019,
+            "fileID": 4381441,
             "required": true
         },
         {
@@ -645,10 +645,10 @@
             "required": true
         },
         {
-            "filename": "dawn-4.1.0.jar",
+            "filename": "dawn-4.1.1.jar",
             "link_slug": "dawn",
             "projectID": 399309,
-            "fileID": 4332546,
+            "fileID": 4386566,
             "required": true
         },
         {
@@ -834,17 +834,17 @@
             "required": true
         },
         {
-            "filename": "sodium-fabric-mc1.19.3-0.4.8+build.22.jar",
+            "filename": "sodium-fabric-mc1.19.3-0.4.9+build.23.jar",
             "link_slug": "sodium",
             "projectID": 394468,
-            "fileID": 4291859,
+            "fileID": 4381988,
             "required": true
         },
         {
-            "filename": "indium-1.0.12+mc1.19.3.jar",
+            "filename": "indium-1.0.14+mc1.19.3.jar",
             "link_slug": "indium",
             "projectID": 459496,
-            "fileID": 4291875,
+            "fileID": 4388133,
             "required": true
         },
         {
@@ -897,10 +897,10 @@
             "required": true
         },
         {
-            "filename": "sodium-extra-0.4.16+mc1.19.3-build.91.jar",
+            "filename": "sodium-extra-0.4.17+mc1.19.3-build.95.jar",
             "link_slug": "sodium-extra",
             "projectID": 447673,
-            "fileID": 4279049,
+            "fileID": 4382404,
             "required": true
         },
         {
@@ -974,10 +974,10 @@
             "required": true
         },
         {
-            "filename": "moreculling-1.19.3-0.15.0.jar",
+            "filename": "moreculling-1.19.3-0.16.0.jar",
             "link_slug": "moreculling",
             "projectID": 630104,
-            "fileID": 4367056,
+            "fileID": 4388625,
             "required": true
         },
         {
@@ -1037,10 +1037,10 @@
             "required": true
         },
         {
-            "filename": "iris-mc1.19.3-1.5.1.jar",
+            "filename": "iris-mc1.19.3-1.5.2.jar",
             "link_slug": "irisshaders",
             "projectID": 455508,
-            "fileID": 4291913,
+            "fileID": 4385034,
             "required": true
         },
         {
@@ -1093,10 +1093,10 @@
             "required": true
         },
         {
-            "filename": "Xaeros_Minimap_22.17.1_Fabric_1.19.3.jar",
+            "filename": "Xaeros_Minimap_23.1.0_Fabric_1.19.3.jar",
             "link_slug": "xaeros-minimap",
             "projectID": 263420,
-            "fileID": 4338624,
+            "fileID": 4381126,
             "required": true
         },
         {
@@ -1205,10 +1205,10 @@
             "required": true
         },
         {
-            "filename": "ShowMeWhatYouGot-1.19.2-1.0.3.jar",
+            "filename": "ShowMeWhatYouGot-1.19.3-1.1.0.jar",
             "link_slug": "show-me-what-you-got",
             "projectID": 564941,
-            "fileID": 4226868,
+            "fileID": 4385533,
             "required": true
         },
         {
