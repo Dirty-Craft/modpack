@@ -1,15 +1,10 @@
 # TODO
 
+- Update to 1.19.4
 - Cleanup configs
 - Create logo and symbol and organize descriptions of the modpack
-
-## Mods to create
-
-1. A mod to add Paper and Quill to the game.
-We need a kind of paper which acts like book and quill and can be signed by players.
-Also it should be stackable.
-And available with different colors.
-
-2. A mod to add alcoholic drinks to the game.
-We need lots of functionalities for it to make it the most complete mod for alcoholic drinks in MineCraft.
-Also we should make it compatible with other mods that add new fruits, like Croptopia.
+- Complete datapack lifesteal
+- Create mod TelegramBot: A mod to connect the MineCraft server to a Telegram bot
+- Create mod DiscordBot: A mod to connect the MineCraft server to a Discord server
+- Create mod Paper and Quill: A mod to add a paper that acts like book and quill
+- Create mod Cheers: Add everything related to alcoholic drinks and mechanics to create them
