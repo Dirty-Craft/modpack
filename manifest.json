@@ -1,6 +1,6 @@
 {
     "minecraft": {
-        "version": "1.19.3",
+        "version": "1.19.4",
         "modLoaders": [
             {
                 "id": "fabric-0.14.11",
@@ -21,10 +21,10 @@
             "required": true
         },
         {
-            "filename": "fabric-api-0.73.2+1.19.3.jar",
+            "filename": "fabric-api-0.76.0+1.19.4.jar",
             "link_slug": "fabric-api",
             "projectID": 306612,
-            "fileID": 4373752,
+            "fileID": 4438778,
             "required": true
         },
         {
@@ -35,10 +35,10 @@
             "required": true
         },
         {
-            "filename": "TerraBlender-fabric-1.19.3-2.1.0.139.jar",
+            "filename": "TerraBlender-fabric-1.19.4-2.2.0.155.jar",
             "link_slug": "terrablender-fabric",
             "projectID": 565956,
-            "fileID": 4284515,
+            "fileID": 4458635,
             "required": true
         },
         {
@@ -56,17 +56,17 @@
             "required": true
         },
         {
-            "filename": "YungsApi-1.19.2-Fabric-3.8.2.jar",
+            "filename": "YungsApi-1.19.4-Fabric-3.10.1.jar",
             "link_slug": "yungs-api-fabric",
             "projectID": 421649,
-            "fileID": 4035003,
+            "fileID": 4454257,
             "required": true
         },
         {
-            "filename": "YungsBetterMineshafts-1.19.2-Fabric-3.2.0.jar",
+            "filename": "YungsBetterMineshafts-1.19.4-Fabric-3.4.0.jar",
             "link_slug": "yungs-better-mineshafts-fabric",
             "projectID": 373591,
-            "fileID": 4031205,
+            "fileID": 4454263,
             "required": true
         },
         {
@@ -98,17 +98,17 @@
             "required": true
         },
         {
-            "filename": "bettervillage-fabric-1.19.2-2.0.0.jar",
+            "filename": "bettervillage-fabric-1.19.4-2.1.0.jar",
             "link_slug": "better-village-fabric",
             "projectID": 615351,
-            "fileID": 3959346,
+            "fileID": 4444995,
             "required": true
         },
         {
-            "filename": "cloth-config-9.0.94-fabric.jar",
+            "filename": "cloth-config-10.0.96-fabric.jar",
             "link_slug": "cloth-config",
             "projectID": 348521,
-            "fileID": 4147098,
+            "fileID": 4440460,
             "required": true
         },
         {
@@ -119,10 +119,10 @@
             "required": true
         },
         {
-            "filename": "extraalchemy-fabric-1.19.3-1.9.2.jar",
+            "filename": "extraalchemy-fabric-1.19.3-1.9.3.jar",
             "link_slug": "extra-alchemy",
             "projectID": 247357,
-            "fileID": 4320513,
+            "fileID": 4422885,
             "required": true
         },
         {
@@ -140,10 +140,10 @@
             "required": true
         },
         {
-            "filename": "geckolib-fabric-1.19.3-4.0.3.jar",
+            "filename": "geckolib-fabric-1.19.4-4.1.2.jar",
             "link_slug": "geckolib",
             "projectID": 388172,
-            "fileID": 4282014,
+            "fileID": 4451002,
             "required": true
         },
         {
@@ -154,10 +154,10 @@
             "required": true
         },
         {
-            "filename": "libraryferret-fabric-1.19.2-3.0.0.jar",
+            "filename": "libraryferret-fabric-1.19.4-4.0.0.jar",
             "link_slug": "library-ferret-fabric",
             "projectID": 532730,
-            "fileID": 3959274,
+            "fileID": 4443358,
             "required": true
         },
         {
@@ -189,31 +189,31 @@
             "required": true
         },
         {
-            "filename": "repurposed_structures_fabric-6.3.1+1.19.3.jar",
+            "filename": "repurposed_structures-6.3.19+1.19.4-fabric.jar",
             "link_slug": "repurposed-structures-fabric",
             "projectID": 391366,
-            "fileID": 4194326,
+            "fileID": 4438775,
             "required": true
         },
         {
-            "filename": "the_bumblezone-6.6.3+1.19.3-fabric.jar",
+            "filename": "the_bumblezone-6.7.1+1.19.4-fabric.jar",
             "link_slug": "the-bumblezone-fabric",
             "projectID": 363949,
-            "fileID": 4386170,
+            "fileID": 4462135,
             "required": true
         },
         {
-            "filename": "travelers-backpack-1.19.3-8.3.2.jar",
+            "filename": "travelers-backpack-1.19.3-8.3.6.jar",
             "link_slug": "travelers-backpack-fabric",
             "projectID": 541171,
-            "fileID": 4386249,
+            "fileID": 4451505,
             "required": true
         },
         {
-            "filename": "voicechat-fabric-1.19.3-2.3.28.jar",
+            "filename": "voicechat-fabric-1.19.4-2.3.28.jar",
             "link_slug": "simple-voice-chat",
             "projectID": 416089,
-            "fileID": 4372225,
+            "fileID": 4437018,
             "required": true
         },
         {
@@ -280,45 +280,45 @@
             "required": true
         },
         {
-            "filename": "reinforced-shulker-boxes-2.3.0+1.19.jar",
+            "filename": "reinforced-shulker-boxes-2.3.2+1.19.jar",
             "link_slug": "reinforced-shulker-boxes",
             "projectID": 529874,
-            "fileID": 4257907,
+            "fileID": 4448741,
             "required": true
         },
         {
-            "filename": "bettercombat-fabric-1.5.5+1.19.3.jar",
+            "filename": "bettercombat-fabric-1.6.2+1.19.3.jar",
             "link_slug": "better-combat-by-daedelus",
             "projectID": 639842,
-            "fileID": 4357601,
+            "fileID": 4428907,
             "required": true
         },
         {
-            "filename": "player-animation-lib-fabric-0.4.2+1.19.3.jar",
+            "filename": "player-animation-lib-fabric-1.0.2+1.19.4.jar",
             "link_slug": "playeranimator",
             "projectID": 658587,
-            "fileID": 4357564,
+            "fileID": 4446526,
             "required": true
         },
         {
-            "filename": "Adorn-4.0.1+1.19.3-fabric.jar",
+            "filename": "Adorn-4.1.0+1.19.3-fabric.jar",
             "link_slug": "adorn",
             "projectID": 320215,
-            "fileID": 4264473,
+            "fileID": 4459415,
             "required": true
         },
         {
-            "filename": "fabric-language-kotlin-1.9.1+kotlin.1.8.10.jar",
+            "filename": "fabric-language-kotlin-1.9.2+kotlin.1.8.10.jar",
             "link_slug": "fabric-language-kotlin",
             "projectID": 308769,
-            "fileID": 4378167,
+            "fileID": 4438609,
             "required": true
         },
         {
-            "filename": "chat_heads-0.9.0-fabric-1.19.3.jar",
+            "filename": "chat_heads-0.10.8-fabric-1.19.3.jar",
             "link_slug": "chat-heads",
             "projectID": 407206,
-            "fileID": 4287859,
+            "fileID": 4459213,
             "required": true
         },
         {
@@ -336,59 +336,59 @@
             "required": true
         },
         {
-            "filename": "CreaturesFromTheSnow-4.1.0+1.19.2.jar",
+            "filename": "CreaturesFromTheSnow-5.0.1+1.19.4.jar",
             "link_slug": "creatures-from-the-snow-fabric",
             "projectID": 576413,
-            "fileID": 4337261,
+            "fileID": 4448537,
             "required": true
         },
         {
-            "filename": "DarkPaintings-Fabric-1.19.3-14.0.2.jar",
+            "filename": "DarkPaintings-Fabric-1.19.4-15.0.1.jar",
             "link_slug": "dark-paintings",
             "projectID": 377281,
-            "fileID": 4357101,
+            "fileID": 4445275,
             "required": true
         },
         {
-            "filename": "biomemakeover-FABRIC-1.19.3-1.7.1.jar",
+            "filename": "biomemakeover-FABRIC-1.19.4-1.8.0.jar",
             "link_slug": "biome-makeover",
             "projectID": 412182,
-            "fileID": 4147435,
+            "fileID": 4462059,
             "required": true
         },
         {
-            "filename": "BOMD-1.5.1-1.19.3.jar",
+            "filename": "BOMD-1.6-1.19.4.jar",
             "link_slug": "bosses-of-mass-destruction",
             "projectID": 438365,
-            "fileID": 4384576,
+            "fileID": 4449278,
             "required": true
         },
         {
-            "filename": "BetterTridents-v4.0.2-1.19.2-Fabric.jar",
+            "filename": "BetterTridents-v5.0.0-1.19.3-Fabric.jar",
             "link_slug": "better-tridents",
             "projectID": 666941,
-            "fileID": 4368298,
+            "fileID": 4457524,
             "required": true
         },
         {
-            "filename": "betterstats-2.2.1+1.19.3.jar",
+            "filename": "betterstats-2.4.1+1.19.3.jar",
             "link_slug": "better-stats",
             "projectID": 667464,
-            "fileID": 4378076,
+            "fileID": 4430765,
             "required": true
         },
         {
-            "filename": "PuzzlesLib-v4.3.12-1.19.2-Fabric.jar",
+            "filename": "PuzzlesLib-v5.0.19-1.19.3-Fabric.jar",
             "link_slug": "puzzles-lib",
             "projectID": 495476,
-            "fileID": 4041205,
+            "fileID": 4462484,
             "required": true
         },
         {
-            "filename": "architectury-7.1.70-fabric.jar",
+            "filename": "architectury-8.1.75-fabric.jar",
             "link_slug": "architectury-api",
             "projectID": 419699,
-            "fileID": 4384408,
+            "fileID": 4457141,
             "required": true
         },
         {
@@ -399,10 +399,10 @@
             "required": true
         },
         {
-            "filename": "Bookshelf-Fabric-1.19.3-17.0.3.jar",
+            "filename": "Bookshelf-Fabric-1.19.4-18.0.2.jar",
             "link_slug": "bookshelf",
             "projectID": 228525,
-            "fileID": 4318469,
+            "fileID": 4454754,
             "required": true
         },
         {
@@ -420,17 +420,17 @@
             "required": true
         },
         {
-            "filename": "emotecraft-for-MC1.19.3-2.2.7-b.build.47-fabric.jar",
+            "filename": "emotecraft-for-MC1.19.4-2.2.7-b.build.48-fabric.jar",
             "link_slug": "emotecraft",
             "projectID": 397809,
-            "fileID": 4173793,
+            "fileID": 4455296,
             "required": true
         },
         {
-            "filename": "EnchantmentDescriptions-Fabric-1.19.3-14.0.6.jar",
+            "filename": "EnchantmentDescriptions-Fabric-1.19.4-15.0.1.jar",
             "link_slug": "enchantment-descriptions",
             "projectID": 250419,
-            "fileID": 4321824,
+            "fileID": 4445053,
             "required": true
         },
         {
@@ -463,24 +463,24 @@
             "required": true
         },
         {
-            "filename": "moonlight-1.19.2-2.2.2-fabric.jar",
+            "filename": "moonlight-1.19.4-2.3.4-fabric.jar",
             "link_slug": "selene",
             "projectID": 499980,
-            "fileID": 4368441,
+            "fileID": 4462069,
             "required": true
         },
         {
-            "filename": "ForgeConfigAPIPort-v5.0.9-1.19.3-Fabric.jar",
+            "filename": "ForgeConfigAPIPort-v6.0.2-1.19.4-Fabric.jar",
             "link_slug": "forge-config-api-port-fabric",
             "projectID": 547434,
-            "fileID": 4381441,
+            "fileID": 4451343,
             "required": true
         },
         {
-            "filename": "LeavesBeGone-v4.0.1-1.19.2-Fabric.jar",
+            "filename": "LeavesBeGone-v5.0.0-1.19.3-Fabric.jar",
             "link_slug": "leaves-be-gone",
             "projectID": 686435,
-            "fileID": 4312309,
+            "fileID": 4457516,
             "required": true
         },
         {
@@ -491,24 +491,24 @@
             "required": true
         },
         {
-            "filename": "guard-villagers-fabric-1.19.3-1.0.18.jar",
+            "filename": "guard-villagers-fabric-1.19.4-1.0.18.jar",
             "link_slug": "guard-villagers-fabric",
             "projectID": 571503,
-            "fileID": 4361217,
+            "fileID": 4444089,
             "required": true
         },
         {
-            "filename": "balm-fabric-1.19.3-5.0.2.jar",
+            "filename": "balm-fabric-1.19.4-6.0.2.jar",
             "link_slug": "balm-fabric",
             "projectID": 500525,
-            "fileID": 4361314,
+            "fileID": 4442610,
             "required": true
         },
         {
-            "filename": "kleeslabs-fabric-1.19.3-13.0.0.jar",
+            "filename": "kleeslabs-fabric-1.19.4-14.0.1.jar",
             "link_slug": "kleeslabs-fabric",
             "projectID": 547695,
-            "fileID": 4191527,
+            "fileID": 4440435,
             "required": true
         },
         {
@@ -540,24 +540,24 @@
             "required": true
         },
         {
-            "filename": "netherportalfix-fabric-1.19.3-11.0.1.jar",
+            "filename": "netherportalfix-fabric-1.19.4-12.0.1.jar",
             "link_slug": "netherportalfix-fabric",
             "projectID": 547696,
-            "fileID": 4361360,
+            "fileID": 4439206,
             "required": true
         },
         {
-            "filename": "notenoughanimations-fabric-1.6.2-mc1.19.3.jar",
+            "filename": "notenoughanimations-fabric-1.6.3-mc1.19.4.jar",
             "link_slug": "not-enough-animations",
             "projectID": 433760,
-            "fileID": 4142247,
+            "fileID": 4437504,
             "required": true
         },
         {
-            "filename": "onsoulfire-1.19-3.jar",
+            "filename": "onsoulfire-1.19-4.jar",
             "link_slug": "on-soul-fire",
             "projectID": 394667,
-            "fileID": 4173851,
+            "fileID": 4444747,
             "required": true
         },
         {
@@ -582,17 +582,17 @@
             "required": true
         },
         {
-            "filename": "jamlib-0.6.0+1.19.3.jar",
+            "filename": "jamlib-0.6.0+1.19.4.jar",
             "link_slug": "jamlib",
             "projectID": 623764,
-            "fileID": 4318619,
+            "fileID": 4440489,
             "required": true
         },
         {
-            "filename": "right-click-harvest-3.1.0+1.19.3.jar",
+            "filename": "right-click-harvest-3.1.0+1.19.4.jar",
             "link_slug": "rightclickharvest",
             "projectID": 452834,
-            "fileID": 4318643,
+            "fileID": 4440504,
             "required": true
         },
         {
@@ -603,10 +603,10 @@
             "required": true
         },
         {
-            "filename": "3dskinlayers-fabric-1.5.2-mc1.19.3.jar",
+            "filename": "3dskinlayers-fabric-1.5.3-mc1.19.4.jar",
             "link_slug": "skin-layers-3d",
             "projectID": 521480,
-            "fileID": 4142188,
+            "fileID": 4437104,
             "required": true
         },
         {
@@ -624,10 +624,10 @@
             "required": true
         },
         {
-            "filename": "snow-under-trees-fabric-1.0.0+1.19.3.jar",
+            "filename": "snow-under-trees-fabric-1.1.0+1.19.4.jar",
             "link_slug": "snow-under-trees-remastered",
             "projectID": 693715,
-            "fileID": 4321902,
+            "fileID": 4450313,
             "required": true
         },
         {
@@ -645,10 +645,10 @@
             "required": true
         },
         {
-            "filename": "dawn-4.1.1.jar",
+            "filename": "dawn-4.2.0.jar",
             "link_slug": "dawn",
             "projectID": 399309,
-            "fileID": 4386566,
+            "fileID": 4459099,
             "required": true
         },
         {
@@ -659,24 +659,24 @@
             "required": true
         },
         {
-            "filename": "villagernames-1.19.3-4.5.0.jar",
+            "filename": "villagernames-1.19.4-4.5.1.jar",
             "link_slug": "villager-names-fabric",
             "projectID": 416379,
-            "fileID": 4362003,
+            "fileID": 4455854,
             "required": true
         },
         {
-            "filename": "VisualWorkbench-v4.2.1-1.19.2-Fabric.jar",
+            "filename": "VisualWorkbench-v5.0.0-1.19.3-Fabric.jar",
             "link_slug": "visual-workbench",
             "projectID": 500273,
-            "fileID": 4310600,
+            "fileID": 4457522,
             "required": true
         },
         {
-            "filename": "voidtotem-fabric-1.19.3-2.2.0.jar",
+            "filename": "voidtotem-fabric-1.19.4-2.3.0.jar",
             "link_slug": "voidtotem-fabric",
             "projectID": 456137,
-            "fileID": 4311639,
+            "fileID": 4459187,
             "required": true
         },
         {
@@ -701,59 +701,59 @@
             "required": true
         },
         {
-            "filename": "YungsBetterDesertTemples-1.19.2-Fabric-2.2.1.jar",
+            "filename": "YungsBetterDesertTemples-1.19.4-Fabric-2.4.0.jar",
             "link_slug": "yungs-better-desert-temples-fabric",
             "projectID": 631020,
-            "fileID": 4031661,
+            "fileID": 4454279,
             "required": true
         },
         {
-            "filename": "YungsBetterDungeons-1.19.2-Fabric-3.2.1.jar",
+            "filename": "YungsBetterDungeons-1.19.4-Fabric-3.4.0.jar",
             "link_slug": "yungs-better-dungeons-fabric",
             "projectID": 525586,
-            "fileID": 4031673,
+            "fileID": 4454275,
             "required": true
         },
         {
-            "filename": "YungsBetterOceanMonuments-1.19.2-Fabric-2.1.0.jar",
+            "filename": "YungsBetterOceanMonuments-1.19.4-Fabric-2.3.0.jar",
             "link_slug": "yungs-better-ocean-monuments-fabric",
             "projectID": 689252,
-            "fileID": 4031419,
+            "fileID": 4454282,
             "required": true
         },
         {
-            "filename": "YungsBetterStrongholds-1.19.2-Fabric-3.2.0.jar",
+            "filename": "YungsBetterStrongholds-1.19.4-Fabric-3.4.0.jar",
             "link_slug": "yungs-better-strongholds-fabric",
             "projectID": 480684,
-            "fileID": 4031215,
+            "fileID": 4454270,
             "required": true
         },
         {
-            "filename": "YungsBetterWitchHuts-1.19.2-Fabric-2.1.0.jar",
+            "filename": "YungsBetterWitchHuts-1.19.4-Fabric-2.3.0.jar",
             "link_slug": "yungs-better-witch-huts-fabric",
             "projectID": 631403,
-            "fileID": 4031228,
+            "fileID": 4454289,
             "required": true
         },
         {
-            "filename": "YungsBridges-1.19.2-Fabric-3.1.0.jar",
+            "filename": "YungsBridges-1.19.4-Fabric-3.3.0.jar",
             "link_slug": "yungs-bridges-fabric",
             "projectID": 590988,
-            "fileID": 4031234,
+            "fileID": 4454299,
             "required": true
         },
         {
-            "filename": "YungsExtras-1.19.2-Fabric-3.1.0.jar",
+            "filename": "YungsExtras-1.19.4-Fabric-3.3.0.jar",
             "link_slug": "yungs-extras-fabric",
             "projectID": 590993,
-            "fileID": 4031232,
+            "fileID": 4454294,
             "required": true
         },
         {
-            "filename": "YetAnotherConfigLib-2.2.0.jar",
+            "filename": "YetAnotherConfigLib-2.3.0.jar",
             "link_slug": "yacl",
             "projectID": 667299,
-            "fileID": 4260308,
+            "fileID": 4439217,
             "required": true
         },
         {
@@ -799,10 +799,10 @@
             "required": true
         },
         {
-            "filename": "modmenu-5.0.2.jar",
+            "filename": "modmenu-6.1.0-rc.4.jar",
             "link_slug": "modmenu",
             "projectID": 308702,
-            "fileID": 4159524,
+            "fileID": 4441645,
             "required": true
         },
         {
@@ -834,31 +834,31 @@
             "required": true
         },
         {
-            "filename": "sodium-fabric-mc1.19.3-0.4.9+build.23.jar",
+            "filename": "sodium-fabric-mc1.19.4-0.4.10+build.24.jar",
             "link_slug": "sodium",
             "projectID": 394468,
-            "fileID": 4381988,
+            "fileID": 4437119,
             "required": true
         },
         {
-            "filename": "indium-1.0.14+mc1.19.3.jar",
+            "filename": "indium-1.0.15+mc1.19.4.jar",
             "link_slug": "indium",
             "projectID": 459496,
-            "fileID": 4388133,
+            "fileID": 4437430,
             "required": true
         },
         {
-            "filename": "entity_texture_features_fabric_1.19.3-4.3.1.jar",
+            "filename": "entity_texture_features_fabric_1.19.4-4.3.5.jar",
             "link_slug": "entity-texture-features-fabric",
             "projectID": 568563,
-            "fileID": 4291872,
+            "fileID": 4455493,
             "required": true
         },
         {
-            "filename": "reeses_sodium_options-1.4.9+mc1.19.2-build.67.jar",
+            "filename": "reeses_sodium_options-1.5.0+mc1.19.4-build.72.jar",
             "link_slug": "reeses-sodium-options",
             "projectID": 511319,
-            "fileID": 4126247,
+            "fileID": 4437267,
             "required": true
         },
         {
@@ -869,10 +869,10 @@
             "required": true
         },
         {
-            "filename": "ferritecore-5.1.0-fabric.jar",
+            "filename": "ferritecore-5.2.0-fabric.jar",
             "link_slug": "ferritecore-fabric",
             "projectID": 459857,
-            "fileID": 4142248,
+            "fileID": 4441951,
             "required": true
         },
         {
@@ -897,17 +897,17 @@
             "required": true
         },
         {
-            "filename": "sodium-extra-0.4.17+mc1.19.3-build.95.jar",
+            "filename": "sodium-extra-0.4.18+mc1.19.4-build.100.jar",
             "link_slug": "sodium-extra",
             "projectID": 447673,
-            "fileID": 4382404,
+            "fileID": 4437313,
             "required": true
         },
         {
-            "filename": "Capes-1.5.1+1.19.3.jar",
+            "filename": "capes-1.5.2+1.19.3-fabric.jar",
             "link_slug": "capes",
             "projectID": 408481,
-            "fileID": 4175314,
+            "fileID": 4441151,
             "required": true
         },
         {
@@ -925,10 +925,10 @@
             "required": true
         },
         {
-            "filename": "fabricskyboxes-0.6.2+mc1.19.3.jar",
+            "filename": "fabricskyboxes-0.6.5+mc1.19.4.jar",
             "link_slug": "fabricskyboxes",
             "projectID": 408209,
-            "fileID": 4363115,
+            "fileID": 4441050,
             "required": true
         },
         {
@@ -946,17 +946,17 @@
             "required": true
         },
         {
-            "filename": "entityculling-fabric-1.5.2-mc1.19.3.jar",
+            "filename": "entityculling-fabric-1.6.2-mc1.19.4.jar",
             "link_slug": "entityculling",
             "projectID": 448233,
-            "fileID": 4142177,
+            "fileID": 4437103,
             "required": true
         },
         {
-            "filename": "CITResewn-1.1.3+1.19.3.jar",
+            "filename": "CITResewn-1.1.3+1.19.4.jar",
             "link_slug": "cit-resewn",
             "projectID": 521427,
-            "fileID": 4287839,
+            "fileID": 4457065,
             "required": true
         },
         {
@@ -967,38 +967,38 @@
             "required": true
         },
         {
-            "filename": "NoChatReports-FABRIC-1.19.3-v2.0.0.jar",
+            "filename": "NoChatReports-FABRIC-1.19.4-v2.1.1.jar",
             "link_slug": "no-chat-reports",
             "projectID": 634062,
-            "fileID": 4365202,
+            "fileID": 4453052,
             "required": true
         },
         {
-            "filename": "moreculling-1.19.3-0.16.0.jar",
+            "filename": "moreculling-1.19.4-0.17.0.jar",
             "link_slug": "moreculling",
             "projectID": 630104,
-            "fileID": 4388625,
+            "fileID": 4442158,
             "required": true
         },
         {
-            "filename": "fsb-interop-1.1.4+mc1.19.3-build.30.jar",
+            "filename": "fsb-interop-1.2.0+mc1.19.4-build.31.jar",
             "link_slug": "fabricskyboxes-interop",
             "projectID": 697845,
-            "fileID": 4363151,
+            "fileID": 4438906,
             "required": true
         },
         {
-            "filename": "midnightlib-fabric-1.1.0.jar",
+            "filename": "midnightlib-fabric-1.2.1.jar",
             "link_slug": "midnightlib",
             "projectID": 488090,
-            "fileID": 4159149,
+            "fileID": 4429981,
             "required": true
         },
         {
-            "filename": "puzzle-1.4.2-1.19.3.jar",
+            "filename": "puzzle-1.5.0+1.19.4.jar",
             "link_slug": "puzzle",
             "projectID": 563977,
-            "fileID": 4259422,
+            "fileID": 4439191,
             "required": true
         },
         {
@@ -1009,10 +1009,10 @@
             "required": true
         },
         {
-            "filename": "Debugify-1.19.3+1.1.jar",
+            "filename": "Debugify-1.19.4+1.0.jar",
             "link_slug": "debugify",
             "projectID": 596224,
-            "fileID": 4177100,
+            "fileID": 4439242,
             "required": true
         },
         {
@@ -1023,80 +1023,80 @@
             "required": true
         },
         {
-            "filename": "borderless-mining-1.1.6+1.19.3.jar",
+            "filename": "borderless-mining-1.1.7+1.19.4.jar",
             "link_slug": "borderless-mining",
             "projectID": 310205,
-            "fileID": 4161117,
+            "fileID": 4442859,
             "required": true
         },
         {
-            "filename": "lithium-fabric-mc1.19.3-0.10.4.jar",
+            "filename": "lithium-fabric-mc1.19.4-0.11.1.jar",
             "link_slug": "lithium",
             "projectID": 360438,
-            "fileID": 4151763,
+            "fileID": 4439705,
             "required": true
         },
         {
-            "filename": "iris-mc1.19.3-1.5.2.jar",
+            "filename": "iris-mc1.19.4-1.5.2.jar",
             "link_slug": "irisshaders",
             "projectID": 455508,
-            "fileID": 4385034,
+            "fileID": 4437180,
             "required": true
         },
         {
-            "filename": "language-reload-1.5.4+1.19.3.jar",
+            "filename": "language-reload-1.5.5+1.19.4.jar",
             "link_slug": "language-reload",
             "projectID": 527334,
-            "fileID": 4337561,
+            "fileID": 4434815,
             "required": true
         },
         {
-            "filename": "memoryleakfix-1.19.3-0.7.0.jar",
+            "filename": "memoryleakfix-fabric-1.17+-1.0.0-beta.7.jar",
             "link_slug": "memoryleakfix",
             "projectID": 627566,
-            "fileID": 4147605,
+            "fileID": 4461935,
             "required": true
         },
         {
-            "filename": "cem-0.7.1.jar",
+            "filename": "cem-0.7.3.jar",
             "link_slug": "custom-entity-models-cem",
             "projectID": 477078,
-            "fileID": 4170892,
+            "fileID": 4458113,
             "required": true
         },
         {
-            "filename": "appleskin-fabric-mc1.19.3-2.4.2.jar",
+            "filename": "appleskin-fabric-mc1.19.4-2.4.3.jar",
             "link_slug": "appleskin",
             "projectID": 248787,
-            "fileID": 4171199,
+            "fileID": 4440101,
             "required": true
         },
         {
-            "filename": "jei-1.19.3-fabric-12.1.1.13.jar",
+            "filename": "jei-1.19.3-fabric-12.4.0.22.jar",
             "link_slug": "jei",
             "projectID": 238222,
-            "fileID": 4371828,
+            "fileID": 4455245,
             "required": true
         },
         {
-            "filename": "invhud.fabric.1.19-3.4.7.jar",
+            "filename": "invhud.fabric.1.19.4-3.4.11.jar",
             "link_slug": "inventory-hud-forge",
             "projectID": 357540,
-            "fileID": 4153723,
+            "fileID": 4462262,
             "required": true
         },
         {
-            "filename": "shulkerboxtooltip-fabric-3.2.4+1.19.3.jar",
+            "filename": "shulkerboxtooltip-fabric-3.2.5+1.19.4.jar",
             "link_slug": "shulkerboxtooltip",
             "projectID": 315811,
-            "fileID": 4216174,
+            "fileID": 4448566,
             "required": true
         },
         {
-            "filename": "Xaeros_Minimap_23.1.0_Fabric_1.19.3.jar",
+            "filename": "Xaeros_Minimap_23.3.2_Fabric_1.19.4.jar",
             "link_slug": "xaeros-minimap",
             "projectID": 263420,
-            "fileID": 4381126,
+            "fileID": 4454645,
             "required": true
         },
         {
@@ -1114,10 +1114,10 @@
             "required": true
         },
         {
-            "filename": "BetterF3-5.1.0-Fabric-1.19.3.jar",
+            "filename": "BetterF3-6.0.0-Fabric-1.19.4-pre3.jar",
             "link_slug": "betterf3",
             "projectID": 401648,
-            "fileID": 4279061,
+            "fileID": 4437155,
             "required": true
         },
         {
@@ -1128,10 +1128,10 @@
             "required": true
         },
         {
-            "filename": "Tips-Fabric-1.19.3-9.0.3.jar",
+            "filename": "Tips-Fabric-1.19.4-10.0.2.jar",
             "link_slug": "tips",
             "projectID": 306549,
-            "fileID": 4351256,
+            "fileID": 4458137,
             "required": true
         },
         {
@@ -1149,17 +1149,17 @@
             "required": true
         },
         {
-            "filename": "malilib-fabric-1.19.3-0.14.0.jar",
+            "filename": "malilib-fabric-1.19.4-0.15.2.jar",
             "link_slug": "malilib",
             "projectID": 303119,
-            "fileID": 4147598,
+            "fileID": 4444338,
             "required": true
         },
         {
-            "filename": "litematica-fabric-1.19.3-0.13.1.jar",
+            "filename": "litematica-fabric-1.19.4-0.14.2.jar",
             "link_slug": "litematica",
             "projectID": 308892,
-            "fileID": 4259746,
+            "fileID": 4447936,
             "required": true
         },
         {
@@ -1170,24 +1170,24 @@
             "required": true
         },
         {
-            "filename": "AdditionalBanners-Fabric-1.19.3-11.0.1.jar",
+            "filename": "AdditionalBanners-Fabric-1.19.4-12.0.2.jar",
             "link_slug": "additional-banners",
             "projectID": 230137,
-            "fileID": 4325827,
+            "fileID": 4447233,
             "required": true
         },
         {
-            "filename": "TravelersTitles-1.19.2-Fabric-3.1.0.jar",
+            "filename": "TravelersTitles-1.19.4-Fabric-3.3.0.jar",
             "link_slug": "travelers-titles-fabric",
             "projectID": 590990,
-            "fileID": 4031239,
+            "fileID": 4454305,
             "required": true
         },
         {
-            "filename": "minihud-fabric-1.19.3-0.25.0.jar",
+            "filename": "minihud-fabric-1.19.4-0.26.2.jar",
             "link_slug": "minihud",
             "projectID": 244260,
-            "fileID": 4160116,
+            "fileID": 4444346,
             "required": true
         },
         {
@@ -1205,17 +1205,17 @@
             "required": true
         },
         {
-            "filename": "ShowMeWhatYouGot-1.19.3-1.1.0.jar",
+            "filename": "ShowMeWhatYouGot-1.19.4-1.1.0.jar",
             "link_slug": "show-me-what-you-got",
             "projectID": 564941,
-            "fileID": 4385533,
+            "fileID": 4439209,
             "required": true
         },
         {
-            "filename": "elytra-chestplate-swapper-1.2.1-MC1.19.jar",
+            "filename": "elytra-chestplate-swapper-1.3.0-MC1.19.jar",
             "link_slug": "elytra-chestplate-swapper",
             "projectID": 473125,
-            "fileID": 3823099,
+            "fileID": 4420994,
             "required": true
         },
         {
