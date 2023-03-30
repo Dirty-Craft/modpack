@@ -1,10 +1,9 @@
 # TODO
 
+- Create mod Telemine: A mod to connect the MineCraft server to a Telegram bot
 - Update to 1.19.4
 - Cleanup configs
 - Create logo and symbol and organize descriptions of the modpack
-- Complete datapack lifesteal
-- Create mod Telemine: A mod to connect the MineCraft server to a Telegram bot
 - Create mod Afkbot: A mod for servers to manage server side afk and spawning bots
 - Create mod DiscordBot: A mod to connect the MineCraft server to a Discord server
 - Create mod PaperAndQuill: A mod to add a paper that acts like book and quill
