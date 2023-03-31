@@ -1231,6 +1231,13 @@
             "projectID": 267172,
             "fileID": 4346981,
             "required": true
+        },
+        {
+            "filename": "telemine-0.0.1.jar",
+            "link_slug": "telemine",
+            "projectID": 843870,
+            "fileID": 4465700,
+            "required": true
         }
     ],
     "overrides": "overrides"
