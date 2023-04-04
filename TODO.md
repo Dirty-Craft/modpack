@@ -1,6 +1,5 @@
 # TODO
 
-- Create mod Telemine: A mod to connect the MineCraft server to a Telegram bot
 - Update to 1.19.4
 - Cleanup configs
 - Create logo and symbol and organize descriptions of the modpack
