@@ -1233,10 +1233,10 @@
             "required": true
         },
         {
-            "filename": "telemine-0.0.1.jar",
+            "filename": "telemine-0.2.0.jar",
             "link_slug": "telemine",
             "projectID": 843870,
-            "fileID": 4474508,
+            "fileID": 4485614,
             "required": true
         }
     ],
