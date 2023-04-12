@@ -113,6 +113,7 @@ We write our TODOs & plans in [TODO.md](TODO.md). Check it out.
 The project will be automatically published to the Curseforge when you add a **tag**.
 See [Publish workflow](.github/workflows/publish.yml) if you are interested.
 
-## License
+## License and Authors
 This project is created by [parsampsh](https://github.com/parsampsh) and other contributors.
+Logo is designed by Hamed.
 And it's licensed under [MIT License](LICENSE).
